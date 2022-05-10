@@ -44,9 +44,20 @@
   <meta content="#da532c" name="msapplication-TileColor">
   <meta content="favicons/browserconfig.xml" name="msapplication-config">
   <meta content="#ffffff" name="theme-color">
+  <!--Favicons-->
+  <script>
+    function disableClick() {
+      document.onclick = function (event) {
+        if (event.button == 2) {
+          alert('Right Click Message');
+          return false;
+        }
+      }
+    }
+  </script>
 </head>
 
-<body class="page">
+<body class="page" onLoad="disableClick()">
   <div id="icon-fixed-right">
     <a href="https://www.messenger.com/t/sydocorp">
       <i class="icons fab fa-facebook-messenger"></i>
@@ -619,7 +630,7 @@
               <div class="studio-reviews__slider swiper-container">
                 <div class="swiper-wrapper">
                   <div class="studio-reviews__review swiper-slide">
-                    <div class="studio-reviews__review-status">Execellent -
+                    <div class="studio-reviews__review-status">Nổi Bật -
                       <div class="studio-reviews__review-stars">
                         <div class="studio-reviews__review-star icofont-star"></div>
                         <div class="studio-reviews__review-star icofont-star"></div>
@@ -628,16 +639,13 @@
                         <div class="studio-reviews__review-star studio-reviews__review-star_empty icofont-star"></div>
                       </div>
                     </div>
-                    <div class="studio-reviews__review-text">"We've been very pleased with our experience working with
-                      Arquito. Their team was incredibly helpful in helping us find theperfect developer for
-                      our project. The work was stellar, the communication was excellent and we couldn't have been
-                      happier
-                      with the overall experience. We're excited to work with Arquito for more projects
-                      in the future!"
+                    <div class="studio-reviews__review-text">"Tôi đã sử dụng nhà ở mà Sydo thiết kế được 2 năm rồi, tôi
+                      cảm thấy rất hài lòng với thiết kế của ngôi nhà cũng như nội thất bên trong. Mọi thứ đều rất tuyệt
+                      vời, phù hợp với sở thích của cả gia đình chúng tôi."
                     </div>
                   </div>
                   <div class="studio-reviews__review swiper-slide">
-                    <div class="studio-reviews__review-status">Execellent -
+                    <div class="studio-reviews__review-status">Nổi Bật -
                       <div class="studio-reviews__review-stars">
                         <div class="studio-reviews__review-star icofont-star"></div>
                         <div class="studio-reviews__review-star icofont-star"></div>
@@ -646,16 +654,13 @@
                         <div class="studio-reviews__review-star studio-reviews__review-star_empty icofont-star"></div>
                       </div>
                     </div>
-                    <div class="studio-reviews__review-text">"We've been very pleased with our experience working with
-                      Arquito. Their team was incredibly helpful in helping us find theperfect developer for
-                      our project. The work was stellar, the communication was excellent and we couldn't have been
-                      happier
-                      with the overall experience. We're excited to work with Arquito for more projects
-                      in the future!"
+                    <div class="studio-reviews__review-text">"Em đã biết đến Sydo qua một vài giới thiệu từ bạn bè,
+                      người thân, hi vọng trong tương lai em có thể sinh sống và làm việc tại ngôi nhà do chính Sydo
+                      thiết kế."
                     </div>
                   </div>
                   <div class="studio-reviews__review swiper-slide">
-                    <div class="studio-reviews__review-status">Execellent -
+                    <div class="studio-reviews__review-status">Nổi Bật -
                       <div class="studio-reviews__review-stars">
                         <div class="studio-reviews__review-star icofont-star"></div>
                         <div class="studio-reviews__review-star icofont-star"></div>
@@ -664,12 +669,9 @@
                         <div class="studio-reviews__review-star studio-reviews__review-star_empty icofont-star"></div>
                       </div>
                     </div>
-                    <div class="studio-reviews__review-text">"We've been very pleased with our experience working with
-                      Arquito. Their team was incredibly helpful in helping us find theperfect developer for
-                      our project. The work was stellar, the communication was excellent and we couldn't have been
-                      happier
-                      with the overall experience. We're excited to work with Arquito for more projects
-                      in the future!"
+                    <div class="studio-reviews__review-text">"Tôi là phụ huynh của bé tại trường mầm non Koi quận 8, tôi
+                      rất thích thiết kế cũng như nội thất, cơ sở vật chất tại trường, bé nhà tôi rất thích khu vui chơi
+                      liên hoàn. Chúc sydo ngày càng phát triển trong tương lai."
                     </div>
                   </div>
                 </div>
@@ -678,30 +680,24 @@
                 <div class="swiper-wrapper">
                   <div class="studio-reviews__person studio-reviews__person_active swiper-slide">
                     <div class="studio-reviews__person-image">
-                      <img alt="" src="img/studio-review-person-1.jpg" />
+                      <img alt="" src="img/ảnh khách hàng tư vấn/phuhuynhhocsinh.jpg" />
                     </div>
-                    <div class="studio-reviews__person-name">Robert Downer</div>
-                    <div class="studio-reviews__person-role">Creative Director at
-                      <a href="#">Envato LLC</a>
-                    </div>
+                    <div class="studio-reviews__person-name">Trần Văn Lợi</div>
+                    
                   </div>
                   <div class="studio-reviews__person swiper-slide">
                     <div class="studio-reviews__person-image">
-                      <img alt="" src="img/studio-review-person-2.jpg" />
+                      <img alt="" src="img/ảnh khách hàng tư vấn/anh_khach_hang_nu.jpg" />
                     </div>
-                    <div class="studio-reviews__person-name">natalie noyes</div>
-                    <div class="studio-reviews__person-role">Managerment Product at
-                      <a href="#">Spotify</a>
-                    </div>
+                    <div class="studio-reviews__person-name">Nguyễn Thị Thảo Nguyên</div>
+                    
                   </div>
                   <div class="studio-reviews__person swiper-slide">
                     <div class="studio-reviews__person-image">
-                      <img alt="" src="img/studio-review-person-3.jpg" />
+                      <img alt="" src="img/ảnh khách hàng tư vấn/anh_khach_hang_nu.jpg" />
                     </div>
-                    <div class="studio-reviews__person-name">Christ Evan</div>
-                    <div class="studio-reviews__person-role">Senior Visual Product Designer at
-                      <a href="#">FocusLabs</a>
-                    </div>
+                    <div class="studio-reviews__person-name">Trương Hoài Niệm</div>
+                   
                   </div>
                 </div>
               </div>
