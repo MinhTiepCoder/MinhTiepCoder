@@ -3890,7 +3890,9 @@ icon
 .icon_facebook {
   width: 0.466666666666667em;
 }
-
+.icon_youtube {
+  width: 0.466666666666667em;
+}
 .icon_twitter {
   width: 1.090909090909091em;
 }
@@ -7029,7 +7031,7 @@ socials
   color: currentColor;
   border-radius: 100%;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 15px;
   transition: all 0.3s;
   
