@@ -68,17 +68,18 @@
 
   <!-- Your SDK code -->
   <script>
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
       FB.init({
-        xfbml            : true,
-        version          : 'v13.0'
+        xfbml: true,
+        version: 'v13.0'
       });
     };
 
-    (function(d, s, id) {
+    (function (d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
+      js = d.createElement(s);
+      js.id = id;
       js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
@@ -230,13 +231,94 @@
           <!--Chia 2 mục Tin Tức/ Blog -->
           <div class="articles-list-wrapper__head">
             <div class="articles-list-wrapper__filter">
-              <button class="masonry__secondary-filter-button masonry__secondary-filter-button_active" data-filter="*" type="button">All</button>
+              <button class="masonry__secondary-filter-button masonry__secondary-filter-button_active" data-filter="*"
+                type="button">All</button>
               <button class="masonry__secondary-filter-button" data-filter="tintuc" type="button">Tin Tức</button>
-              <button class="masonry__secondary-filter-button" data-filter="Event" type="button">Blog</button>
+              <button class="masonry__secondary-filter-button" data-filter="blog" type="button">Blog</button>
             </div>
           </div>
 
           <div class="articles-list masonry__grid  ">
+
+            <!-- Blog Biệt Thự Penthouse-->
+            <div class="articles-list__item masonry__item">
+              <a class="article-listing-item" data-filters="blog" href="biet-thu-penthouse-vung-tau.html">
+                <div class="article-listing-item__cover">
+                  <div class="article-listing-item__cover-image"
+                    style="background-image: url(img/tintucblog/vungtau_penthouse\ \(1\).jpg)">
+                  </div>
+                </div>
+                <div class="article-listing-item__content">
+                  <div class="article-listing-item__header">
+                    <div class="article-listing-item__category">Blog</div>
+                    <div class="article-listing-item__date">May 29, 2022</div>
+                  </div>
+                  <div class="article-listing-item__title">Biệt thự Penthouse sang trọng giữa lòng thành phố Vũng Tàu
+                  </div>
+                  <div class="article-listing-item__text">Căn biệt thự có diện tích 400m2, tọa lạc tại Mỹ Xuân, Vũng
+                    Tàu, được thiết kế, thi
+                    công và tư vấn giám sát bởi SYDO CORP. Có thể thấy được căn biệt thự này chia diện tích thành 2 phần: phần diện tích nhà ở
+                    và phần sân vườn.
+                    
+                  </div>
+                  <div class="article-listing-item__continue">Continue
+                    <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Blog thiết kế nhà Cao Lãnh-->
+            <div class="articles-list__item masonry__item">
+              <a class="article-listing-item" data-filters="blog" href="nha-cao-lanh.html">
+                <div class="article-listing-item__cover">
+                  <div class="article-listing-item__cover-image"
+                    style="background-image: url(img/tintucblog/cao\ lãnh\ 5.jpg)">
+                  </div>
+                </div>
+                <div class="article-listing-item__content">
+                  <div class="article-listing-item__header">
+                    <div class="article-listing-item__category">Blog</div>
+                    <div class="article-listing-item__date">May 29, 2022</div>
+                  </div>
+                  <div class="article-listing-item__title">Thiết Kế Nội Thất Nhà Cao Lãnh Theo Phong Cách Tối Giản</div>
+                  <div class="article-listing-item__text">Phong cách Minimalism (hay còn gọi là phong cách tối giản)
+                    ngày nay rất được ưa chuộng trong cả thiết kế kiến trúc và nội thất. Điều khiến phong cách này được
+                    yêu thích chính bởi sự đơn giản và tinh tế mà nó mang lại.
+                  </div>
+                  <div class="article-listing-item__continue">Continue
+                    <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Blog thiết kế căn hộ studio-->
+            <div class="articles-list__item masonry__item">
+              <a class="article-listing-item" data-filters="blog" href="thiet-ke-studio-hien-dai.html">
+                <div class="article-listing-item__cover">
+                  <div class="article-listing-item__cover-image"
+                    style="background-image: url(img/tintucblog/studio7.jpg)">
+                  </div>
+                </div>
+                <div class="article-listing-item__content">
+                  <div class="article-listing-item__header">
+                    <div class="article-listing-item__category">Blog</div>
+                    <div class="article-listing-item__date">May 29, 2022</div>
+                  </div>
+                  <div class="article-listing-item__title">Thiết Kế Nội Thất Căn Hộ Studio nhỏ gọn tiện nghi, hiện đại
+                    năm 2022</div>
+                  <div class="article-listing-item__text">Xu hướng sống độc lập, mua nhà riêng đang dần trở nên phổ biến
+                    hơn trong giới trẻ hiện nay. Tuy nhiên, với đối tượng trẻ tuổi hay vợ chồng trẻ sẽ có mức thu nhập
+                    không cao, nên thiết kế căn hộ studio nhỏ tầm 30m2, 35m2 đang là mô hình nhà ở được ưa chuộng...
+                  </div>
+                  <div class="article-listing-item__continue">Continue
+                    <span class="article-listing-item__continue-icon icofont-rounded-right"></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+
 
             <!-- Tin tức nhà ở gia đình hiện đại-->
             <div class="articles-list__item masonry__item">
