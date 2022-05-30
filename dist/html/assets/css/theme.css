@@ -907,10 +907,13 @@ clients-wrapper
 */
 
 .clients-wrapper {
-  padding: 40px 0 55px;
+  padding: 30px 0 55px;
   background: #f4f4f4;
 }
-
+.clients-wrapper1 {
+  padding: 0px 0 30px;
+  background: #f4f4f4;
+}
 /*
 clients
 */
@@ -935,8 +938,8 @@ clients
 }
 
 .clients__item {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .clients__item-inner {
