@@ -7,65 +7,65 @@
       xsi:schemaLocation="
             http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+<!-- Site map update 31/05/2022 -->
 
   <url>
        <loc>https://sydo.vn/</loc>
-       <lastmod>2022-05-30T08:25:02+00:00</lastmod>
+       <lastmod>2022-05-31T07:10:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/trangchu.html</loc>
-       <lastmod>2022-05-30T08:25:02+00:00</lastmod>
+       <lastmod>2022-05-31T07:10:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/vechungtoi.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/kientruc.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/noithat.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/canhquan.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/tuvangiamsat.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/tonghopduan.html</loc>
-       <lastmod>2022-05-30T11:05:02+00:00</lastmod>
+       <lastmod>2022-05-31T07:10:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/chinhsach.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T07:55:03+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -77,229 +77,247 @@
   </url>
   <url>
        <loc>https://sydo.vn/nhabentre.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhanamho.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/showroomMG.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/canhquan-tanung.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/noithat-SPAQ12.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/cafedienbienphu.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhalythaito.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/duanpenthouse.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/congviendaonoihogianghia.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
+       <loc>https://sydo.vn/TT-HD-CD-Binh-Duong.html</loc>
+       <lastmod>2022-05-31T07:15:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
        <loc>https://sydo.vn/congchaonuisam.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/tintuc-nhabentre.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/tintuc-nhanamho.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/kientruc-nhabaoloc.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/penthouse-vung-tau.html</loc>
-       <lastmod>2022-05-30T09:35:01+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/noithatnhabaoloc.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/kientruc-toathaphoasen.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/theshowcoffe.html</loc>
-       <lastmod>2022-05-30T09:35:01+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thiet-ke-vplv-viet-thanh.html</loc>
-       <lastmod>2022-05-30T09:35:01+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhacmt8.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nha-van-hoa-thieu-nhi-khanh-hoa.html</loc>
-       <lastmod>2022-05-30T07:45:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thiet-ke-thi-cong-nha-no-trang-long.html</loc>
-       <lastmod>2022-05-30T09:35:01+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thiet-ke-thi-cong-khach-san-le-gia.html</loc>
-       <lastmod>2022-05-30T09:35:01+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/du-an-thi-cong-ban-tho-to.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T07:10:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhahimlam.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/canhothuthiemdragon.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/showroomhwata.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T07:10:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thiet-ke-nha-chi-giang-go-vap.html</loc>
-       <lastmod>2022-05-30T09:35:01+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thiet-ke-can-ho-pegasuite.html</loc>
-       <lastmod>2022-05-30T09:35:01+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/truongmannonKOI.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhatiengiang.html</loc>
-       <lastmod>2022-05-30T11:20:02+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/uudiemvacamket.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
+       <loc>https://sydo.vn/thiet-ke-thi-cong-xay-dung-nha-ong-phong-cach.html</loc>
+       <lastmod>2022-05-31T07:55:03+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/nha-ben-tre-am-huong-nha-nam-bo.html</loc>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
        <loc>https://sydo.vn/thiet-ke-thi-cong-noi-that-nha-cap-4.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/can-ho-penthouse.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/biet-thu-penthouse-vung-tau.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nha-cao-lanh.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thiet-ke-studio-hien-dai.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nha-o-gia-dinh-hien-dai.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/biet-thu-nghi-duong.html</loc>
-       <lastmod>2022-05-30T03:00:03+00:00</lastmod>
+       <lastmod>2022-05-31T06:45:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
