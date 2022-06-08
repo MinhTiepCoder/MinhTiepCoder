@@ -4594,6 +4594,13 @@ masonry-item
   display: block;
   transition: color 0.3s;
 }
+.masonry-item__youtube {
+  font-family: League Gothic, sans-serif;
+  font-size: 20px;
+  line-height: 1.066666666666667;
+  display: block;
+  transition: color 0.3s;
+}
 
 .masonry-item:hover .masonry-item__title {
   color: #ebb700;
@@ -7995,6 +8002,29 @@ video-block
   border-width: 15px 0 15px 23px;
   border-color: transparent transparent transparent currentColor;
   content: '';
+}
+.video-block-duan {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-top: 30px;
+  margin-right: auto;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.video-block-duan:hover {
+  color: #ebb700;
+}
+
+.video-block-duan:after {
+  position: absolute;
+  content: '';
+  width: auto;
+  height: auto;
+  top: -40px;
+  right: -5%;
+  z-index: 1;
 }
 
 /*
