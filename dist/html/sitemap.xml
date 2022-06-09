@@ -59,7 +59,7 @@
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-06-09T03:50:02+00:00</lastmod>
+       <lastmod>2022-06-09T10:40:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -274,10 +274,16 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://sydo.vn/giai-phap-kien-truc-xanh-cho-nha-ong-nam-2022.html</loc>
-       <lastmod>2022-06-09T03:55:02+00:00</lastmod>
+       <loc>https://sydo.vn/cong-ty-thiet-ke-thi-cong-tron-goi-cac-du-an-kien-truc-noi-that-canh-quan.html</loc>
+       <lastmod>2022-06-09T10:40:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/giai-phap-kien-truc-xanh-cho-nha-ong-nam-2022.html</loc>
+       <lastmod>2022-06-09T10:40:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/giai-phap-thiet-ke-linh-hoat-noi-that-can-ho-thu-thiem-dragon.html</loc>
