@@ -4581,6 +4581,7 @@ masonry-item
 
 }
 
+
 .masonry-item__image-wrapper:hover .masonry-item__image {
   transform: scale(1.04);
   opacity: 0.6;
