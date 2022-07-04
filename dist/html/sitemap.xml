@@ -59,7 +59,7 @@
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-07-02T03:45:02+00:00</lastmod>
+       <lastmod>2022-07-04T02:35:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -73,7 +73,7 @@
        <loc>https://sydo.vn/project-biet-thu-ta-dung-dak-nong.html</loc>
        <lastmod>2022-06-29T11:30:05+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thiet-ke-thi-cong-du-an-nha-an-phu.html</loc>
@@ -289,7 +289,7 @@
        <loc>https://sydo.vn/uu-dai-thiet-ke-thi-cong-biet-thu-tron-goi.html</loc>
        <lastmod>2022-07-02T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/tuyen-dung-nhan-vien-hoa-vien-noi-that.html</loc>
@@ -300,6 +300,18 @@
   <url>
        <loc>https://sydo.vn/tuyen-thuc-tap-sinh-mo-hinh-kien-truc.html</loc>
        <lastmod>2022-07-02T03:35:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/chat-lieu-gach-va-nhung-y-tuong-thiet-ke-cho-khong-gian-song.html</loc>
+       <lastmod>2022-07-04T02:35:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/xay-dung-khong-gian-song-xanh-anh-sang-tu-nhien-cho-ngoi-nha.html</loc>
+       <lastmod>2022-07-02T11:40:03+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
   </url>
