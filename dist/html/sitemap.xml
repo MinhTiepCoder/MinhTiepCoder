@@ -59,7 +59,7 @@
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-07-05T10:45:01+00:00</lastmod>
+       <lastmod>2022-07-06T11:00:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -304,10 +304,16 @@
        <priority>0.6400</priority>
   </url>
   <url>
+       <loc>https://sydo.vn/dich-vu-cai-tao-nha-o-tron-goi.html</loc>
+       <lastmod>2022-07-06T11:00:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
        <loc>https://sydo.vn/su-dung-do-go-trong-thiet-ke-ngoai-that-noi-that-hien-dai.html</loc>
        <lastmod>2022-07-05T10:45:01+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/chat-lieu-gach-va-nhung-y-tuong-thiet-ke-cho-khong-gian-song.html</loc>
