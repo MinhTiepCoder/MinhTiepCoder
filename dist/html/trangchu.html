@@ -4,12 +4,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>SYDO CORP - TRANG CHỦ</title>
+  <title>Công Ty TNHH Kiến Trúc Xây Dựng SYDO </title>
   <!--thẻ meta onpage-->
   <meta property="og:title" content="SYDO CORP - Nền tảng của sự đổi mới" />
   <meta property="og:type" content="website" />
   <meta name="description"
-    content="Sydo Corporation là Công ty chuyên hoạt động trong lĩnh vực Thiết kế Kiến trúc - Nội thất và Xây dựng. Bằng tâm huyết, kinh nghiệm và sự sáng tạo không ngừng, đội ngũ Sydo Corporation tự tin mang đến cho khách hàng những thiết kế độc đáo mang dấu ấn riêng, nâng tầm giá trị cho căn nhà bạn. Đến với chúng tôi, bạn chắc chắn sẽ hài lòng về không gian sống của mình." />
+    content="SYDO CORP là Công ty chuyên hoạt động trong lĩnh vực Thiết kế và thi công Kiến trúc - Xây Dựng - Nội thất. Bằng tâm huyết, kinh nghiệm và sự sáng tạo không ngừng, đội ngũ SYDO CORP tự tin mang đến cho khách hàng những thiết kế độc đáo mang dấu ấn riêng, nâng tầm giá trị cho căn nhà bạn. Đến với chúng tôi, bạn chắc chắn sẽ hài lòng về không gian sống của mình." />
   <link rel="canonical" href="https://sydo.vn/" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:image"
@@ -22,8 +22,7 @@
   <meta property="og:locale" content="vi">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Work+Sans:wght@400;500&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;530&display=swap" rel="stylesheet">
   <!--Robots-->
   <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
   <!--Google Analytics-->
@@ -46,6 +45,9 @@
   <link href="assets/css/animsition.min.css" rel="stylesheet">
   <link href="assets/css/swiper.min.css" rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/sydotable.css" rel="stylesheet">
+
+
   <!--Revolution Style Sheets-->
   <link href="assets/css/revolution/settings.css" rel="stylesheet">
   <link href="assets/css/revolution/layers.css" rel="stylesheet">
@@ -117,47 +119,33 @@
   <!-- Google Adsen-->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9267335504988999"
     crossorigin="anonymous"></script>
+
 </head>
 
 <body class="page" onLoad="disableClick()">
-  <!-- Messenger Plugin chat Code -->
-  <div id="fb-root"></div>
+  <div class="lechinh-social">
+    <div class="social-button">
+      <div class="social-button-content">
 
-  <!-- Your Plugin chat code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
+        <a href="https://zalo.me/0867815109" class="zalo" id='contact_zalo' target='_blank'>
+          <i></i>
+          <span>Zalo: 0867815109</span>
+        </a>
+
+        <a href="tel:0867815109" class="call-icon" rel="nofollow" id='contact_phone'>
+          <i></i>
+          <span>Hotline: 0867815109</span>
+        </a>
+
+        <a href="https://m.me/sydocorp" class="sms" id='contact_facebook' target='_blank'>
+          <i></i>
+          <span>Facebook Messenger</span>
+        </a>
+
+      </div>
+    </div>
   </div>
-
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "903712243144733");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
-
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function () {
-      FB.init({
-        xfbml: true,
-        version: 'v13.0'
-      });
-    };
-
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <div id="icon-fixed-right">
-    <a href="https://zalo.me/2910641720717068631" target="_blank" class="zalo-icon">
-      <img alt="url"
-        src="https://media.metu.vn/fillcolor?url=https%3A%2F%2Fmedia.metu.vn%2Fimages%2Ficon_zalo_01.svg&color=%23ffffff">
-    </a>
-  </div>
-  <!--Start of Tawk.to Script-->
+  <!--Start of Tawk.to Script
   <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
@@ -171,7 +159,7 @@
       s0.parentNode.insertBefore(s1, s0);
     })();
   </script>
-  <!--End of Tawk.to Script-->
+ End of Tawk.to Script-->
   <div style="display: none">
     <!-- svg sprite-->
     <svg style="width:0; height:0; visibility:hidden;" xmlns="http://www.w3.org/2000/svg">
@@ -182,12 +170,14 @@
     </svg>
   </div>
   <div class="page__inner animsition">
+    <div title="Về đầu trang" id="top-up">
+      <i class="fas fa-arrow-circle-up"></i></div>
     <header class="header header_white header_fixed ">
       <div class="header__container">
         <div class="header__wrapper container-fluid">
           <div class="header__inner">
             <a class="header__link" href="https://sydo.vn/">
-              <img alt="" src="img/sydo_logo.png" /></a>
+              <img alt="" src="img/logoo111.png" /></a>
             <button class="header__menu-button" type="button">
               <span class="header__menu-button-inner"></span>
             </button>
@@ -198,53 +188,48 @@
             <ul class="top-menu header-fixed__menu">
               <li class="top-menu__menu-item">
                 <div class="dropdown">
-                  <a class="dropdown__trigger top-menu__menu-link" href="vechungtoi.html">Về Chúng Tôi</a>
+                  <a class="dropdown__trigger top-menu__menu-link" href="tonghopduan.html">DỰ ÁN</a>
 
                 </div>
               </li>
               <li class="top-menu__menu-item">
                 <div class="dropdown">
-                  <a class="dropdown__trigger top-menu__menu-link" href="#">Lĩnh Vực</a>
-                  <div class="dropdown__menu">
-                    <div class="dropdown__column">
-                      <div class="dropdown__item">
-                        <a class="dropdown__link" href="kientruc.html">Kiến Trúc</a>
-                      </div>
-                      <div class="dropdown__item">
-                        <a class="dropdown__link" href="noithat.html">Nội Thất</a>
-                      </div>
-                      <div class="dropdown__item">
-                        <a class="dropdown__link" href="canhquan.html">Cảnh Quan</a>
-                      </div>
-                      <div class="dropdown__item">
-                        <a class="dropdown__link" href="tuvangiamsat.html">Tư Vấn Giám Sát</a>
-                      </div>
-
-                    </div>
-                  </div>
+                  <a class="dropdown__trigger top-menu__menu-link" href="thi-cong-tron-goi.htm">THI CÔNG</a>
                 </div>
               </li>
               <li class="top-menu__menu-item">
                 <div class="dropdown">
-                  <a class="dropdown__trigger top-menu__menu-link" href="tonghopduan.html">Tổng Hợp Dự Án</a>
+                  <a class="dropdown__trigger top-menu__menu-link" href="bang-gia.html">BẢNG GIÁ</a>
 
                 </div>
               </li>
               <li class="top-menu__menu-item">
                 <div class="dropdown">
-                  <a class="dropdown__trigger top-menu__menu-link" href="chinhsach.html">Chính Sách</a>
+                  <a class="dropdown__trigger top-menu__menu-link" href="#">VẬT LIỆU</a>
 
                 </div>
               </li>
               <li class="top-menu__menu-item">
                 <div class="dropdown">
-                  <a class="dropdown__trigger top-menu__menu-link" href="tintuc.html">Tin Tức</a>
+                  <a class="dropdown__trigger top-menu__menu-link" href="tintuc.html">TIN TỨC</a>
 
                 </div>
               </li>
               <li class="top-menu__menu-item">
                 <div class="dropdown">
-                  <a class="dropdown__trigger top-menu__menu-link" href="lienhe.html">Liên Hệ</a>
+                  <a class="dropdown__trigger top-menu__menu-link" href="chinhsach.html">CHÍNH Sách</a>
+
+                </div>
+              </li>
+              <li class="top-menu__menu-item">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="vechungtoi.html">GIỚI THIỆU</a>
+
+                </div>
+              </li>
+              <li class="top-menu__menu-item">
+                <div class="dropdown">
+                  <a class="dropdown__trigger top-menu__menu-link" href="lienhe.html">LIÊN HỆ</a>
 
                 </div>
               </li>
@@ -270,33 +255,29 @@
 
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="vechungtoi.html">Về
-                Chúng Tôi</a>
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tonghopduan.html">Dự
+                Án</a>
 
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href="#submenu2">Lĩnh Vực</a>
-              <div class="menu-panel__menu-list collapse" id="submenu2">
-                <div class="menu-panel__bottom-submenu">
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="kientruc.html">Kiến Trúc</a>
-                  </div>
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="noithat.html">Nội Thất</a>
-                  </div>
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="canhquan.html">Cảnh Quan</a>
-                  </div>
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="tuvangiamsat.html">Tư Vấn Giám Sát</a>
-                  </div>
-                </div>
-              </div>
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse"
+                href="thi-cong-tron-goi.htm">Thi
+                Công</a>
+
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tonghopduan.html">Tổng
-                Hợp Dự Án
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="#">Bảng
+                Giá
               </a>
+
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="#">Vật
+                Liệu</a>
+
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tintuc.html">Tin Tức</a>
 
             </div>
             <div class="menu-panel__menu-item">
@@ -305,15 +286,13 @@
 
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tintuc.html">Tin Tức</a>
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="vechungtoi.html">Giới
+                Thiệu</a>
 
             </div>
             <div class="menu-panel__menu-item">
               <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="lienhe.html">Liên
                 Hệ</a>
-              <div class="menu-panel__menu-list collapse" id="submenu4">
-
-              </div>
             </div>
           </div>
           <div class="menu-panel__footer">
@@ -340,97 +319,264 @@
       </div>
     </header>
     <main>
-      <div class="studio-intro-slide" style="background-image: url(assets/img/distortion.jpg)">
-        <div class="Background">
-          <canvas class="Background-canvas"></canvas>
-        </div>
-        <div class="faded-block studio-intro-slide__container container">
-          <div class="studio-intro-slide__inner">
-            <!-- <div class="studio-intro-slide__subtitle">SYDO CORP</div> --> <br />
-            <div class="studio-intro-slide__title-wrapper">
-              <div class="studio-intro-slide__title"><br />Nền Tảng Của Sự Đổi Mới
+      <div class="main-slider">
+        <div class="revolution-slider">
+          <div class="revolution-slider__slider rev rev_slider fullwidthabanner false" data-version="5.4.6"
+            style="display:none;">
+            <ul>
 
-              </div>
-            </div>
-            <div class="studio-intro-slide__text">"Dự án dù lớn hay nhỏ, trái ngược với thái độ chối từ, chúng tôi luôn
-              sẵn lòng trước là làm hài lòng khách hàng và sau là giữ cho mình "tâm thế" nghề nghiệp. Chúng tôi luôn
-              mong muốn hướng kiến trúc đến với các giá trị của Chân - Thiện - Mỹ hơn là sự phô diễn".
-            </div>
-            <a class="studio-intro-slide__link studio-intro-slide__link_inverted" href="lienhe.html">Đặt Lịch Tư Vấn</a>
+              <!--Biệt thự Nam Hồ-->
+              <li data-transition="fade">
+                <img alt="" class="rev-slidebg" data-bgparallax="off" data-bgposition="center center" data-blurend="0"
+                  data-blurstart="20" data-duration="2000" data-ease="Power3.easeInOut" data-kenburns="on"
+                  data-no-retina="data-no-retina" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0"
+                  data-rotatestart="0" data-scaleend="100" data-scalestart="110"
+                  src="img/NHÀ NAM HỒ/nen-trang-giao-dien.jpg" />
+                <div class="rs-background-video-layer" data-aspectratio="4:3" data-autoplay="true"
+                  data-autoplayonlyfirsttime="false" data-forceCover="1" data-forcerewind="on"
+                  data-videoattributes="background=1&amp;title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;api=1"
+                  data-videocontrols="none" data-videoheight="100%" data-videoloop="loop" data-videowidth="100%"
+                  data-vimeoid="729499668" data-volume="mute"></div>
+                <div class="main-slide main-slide main-slide_size_large">
+                  <div class="main-slide__container container">
+                    <div class="main-slide__slide-inner">
+                      <div class="main-slide__subtitle-wrapper">
+                        <div class="main-slide__subtitle tp-caption"
+                          data-frames='[{"delay":"+40","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromtop","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-type="text" data-voffset="['0','0','0','0']"
+                          data-whitespace="normal" data-width="none" data-x="['left','left','left','left']"
+                          data-y="['top','top','top','top']">Biệt Thự
+                        </div>
+                      </div>
+                      <div class="main-slide__title-wrapper">
+                        <div class="main-slide__title tp-caption" data-fontsize="['100','80','60','70']"
+                          data-frames='[{"delay":"+290","split":"chars","splitdelay":0.03,"speed":1000,"split_direction":"middletoedge","frame":"0","from":"x:50px;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;fb:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-lineheight="['135','105','90','52']"
+                          data-responsive="off" data-responsive_offset="off" data-textAlign="left" data-type="text"
+                          data-voffset="['0','0','0','0']" data-whitespace="normal" data-width="100%"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">Nam Hồ
+                          <br>
+                          Đà Lạt
+                        </div>
+                      </div>
+                      <div class="main-slide__link-wrapper">
+                        <div class="main-slide__link-inner tp-caption"
+                          data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                          data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                          <a class="main-slide__link main-slide__link_inverted" href="https://sydo.vn/nhanamho.html">Xem
+                            Thêm</a>
+                        </div>
+                      </div>
+                      <div class="main-slide__counter-wrapper">
+                        <div class="main-slide__counter-inner">
+                          <div class="main-slide__counter tp-caption"
+                            data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                            data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                            data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                            data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                            <span>01</span>
+                            <span class="main-slide__counter-all">/04</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--Nhà Tiền Giang Banner-->
+              <li data-transition="fade">
+                <img alt="" class="rev-slidebg rev-slidebg" data-bgparallax="off" data-bgposition="center center"
+                  data-blurend="0" data-blurstart="20" data-duration="2000" data-ease="Power3.easeInOut"
+                  data-kenburns="on" data-lazyload="img/back-drop/backdrop2.jpg" data-no-retina="data-no-retina"
+                  data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0"
+                  data-scaleend="100" data-scalestart="110" src="assets/img/dummy.png" />
+                <div class="main-slide main-slide main-slide_size_large">
+                  <div class="main-slide__container container">
+                    <div class="main-slide__slide-inner">
+                      <div class="main-slide__subtitle-wrapper">
+                        <div class="main-slide__subtitle tp-caption"
+                          data-frames='[{"delay":"+40","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromtop","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-type="text" data-voffset="['0','0','0','0']"
+                          data-whitespace="normal" data-width="none" data-x="['left','left','left','left']"
+                          data-y="['top','top','top','top']">Nhà ở hiện đại
+                        </div>
+                      </div>
+                      <div class="main-slide__title-wrapper">
+                        <div class="main-slide__title tp-caption" data-fontsize="['100','80','60','70']"
+                          data-frames='[{"delay":"+290","split":"chars","splitdelay":0.03,"speed":1000,"split_direction":"middletoedge","frame":"0","from":"x:50px;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;fb:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-lineheight="['135','105','90','52']"
+                          data-responsive="off" data-responsive_offset="off" data-textAlign="left" data-type="text"
+                          data-voffset="['0','0','0','0']" data-whitespace="normal" data-width="100%"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">Nhà
+                          <br>
+                          Nam Hồ
+                        </div>
+                      </div>
+                      <div class="main-slide__link-wrapper">
+                        <div class="main-slide__link-inner tp-caption"
+                          data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                          data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                          <a class="main-slide__link main-slide__link_inverted" href="#">Xem thêm</a>
+                        </div>
+                      </div>
+                      <div class="main-slide__counter-wrapper">
+                        <div class="main-slide__counter-inner">
+                          <div class="main-slide__counter tp-caption"
+                            data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                            data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                            data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                            data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                            <span>02</span>
+                            <span class="main-slide__counter-all">/04</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--Banner Penthouse-->
+              <li data-transition="fade">
+                <img alt="" class="rev-slidebg rev-slidebg" data-bgparallax="off" data-bgposition="center center"
+                  data-blurend="0" data-blurstart="20" data-duration="2000" data-ease="Power3.easeInOut"
+                  data-kenburns="on" data-lazyload="img/nen-banner-sydo/baner-1.jpg" data-no-retina="data-no-retina"
+                  data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0"
+                  data-scaleend="100" data-scalestart="110" src="assets/img/dummy.png" />
+                <div class="main-slide main-slide main-slide_size_large">
+                  <div class="main-slide__container container">
+                    <div class="main-slide__slide-inner">
+                      <div class="main-slide__subtitle-wrapper">
+                        <div class="main-slide__subtitle tp-caption"
+                          data-frames='[{"delay":"+40","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromtop","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-type="text" data-voffset="['0','0','0','0']"
+                          data-whitespace="normal" data-width="none" data-x="['left','left','left','left']"
+                          data-y="['top','top','top','top']">Dự Án
+                        </div>
+                      </div>
+                      <div class="main-slide__title-wrapper">
+                        <div class="main-slide__title tp-caption" data-fontsize="['100','80','60','70']"
+                          data-frames='[{"delay":"+290","split":"chars","splitdelay":0.03,"speed":1000,"split_direction":"middletoedge","frame":"0","from":"x:50px;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;fb:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-lineheight="['135','105','90','52']"
+                          data-responsive="off" data-responsive_offset="off" data-textAlign="left" data-type="text"
+                          data-voffset="['0','0','0','0']" data-whitespace="normal" data-width="100%"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">Nhà Ở
+                          <br>
+                          Hiện Đại
+                        </div>
+                      </div>
+                      <div class="main-slide__link-wrapper">
+                        <div class="main-slide__link-inner tp-caption"
+                          data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                          data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                          <a class="main-slide__link main-slide__link_inverted" href="#">Xem thêm</a>
+                        </div>
+                      </div>
+                      <div class="main-slide__counter-wrapper">
+                        <div class="main-slide__counter-inner">
+                          <div class="main-slide__counter tp-caption"
+                            data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                            data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                            data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                            data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                            <span>03</span>
+                            <span class="main-slide__counter-all">/04</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!--Nội thất nhà An Phú-->
+              <li data-transition="fade">
+                <img alt="" class="rev-slidebg rev-slidebg" data-bgparallax="off" data-bgposition="center center"
+                  data-blurend="0" data-blurstart="20" data-duration="2000" data-ease="Power3.easeInOut"
+                  data-kenburns="on" data-lazyload="img/back-drop/backdrop4.jpg" data-no-retina="data-no-retina"
+                  data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0"
+                  data-scaleend="100" data-scalestart="110" src="assets/img/dummy.png" />
+                <div class="main-slide main-slide main-slide_size_large">
+                  <div class="main-slide__container container">
+                    <div class="main-slide__slide-inner">
+                      <div class="main-slide__subtitle-wrapper">
+                        <div class="main-slide__subtitle tp-caption"
+                          data-frames='[{"delay":"+40","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromtop","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-type="text" data-voffset="['0','0','0','0']"
+                          data-whitespace="normal" data-width="none" data-x="['left','left','left','left']"
+                          data-y="['top','top','top','top']">Xây dựng
+                        </div>
+                      </div>
+                      <div class="main-slide__title-wrapper">
+                        <div class="main-slide__title tp-caption" data-fontsize="['100','80','60','70']"
+                          data-frames='[{"delay":"+290","split":"chars","splitdelay":0.03,"speed":1000,"split_direction":"middletoedge","frame":"0","from":"x:50px;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;fb:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-lineheight="['135','105','90','52']"
+                          data-responsive="off" data-responsive_offset="off" data-textAlign="left" data-type="text"
+                          data-voffset="['0','0','0','0']" data-whitespace="normal" data-width="100%"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">Nhìn nhận
+                          <br>
+                          tổng quan
+                        </div>
+                      </div>
+                      <div class="main-slide__link-wrapper">
+                        <div class="main-slide__link-inner tp-caption"
+                          data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                          data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                          data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                          data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                          data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                          <a class="main-slide__link main-slide__link_inverted" href="#">Xem Thêm</a>
+                        </div>
+                      </div>
+                      <div class="main-slide__counter-wrapper">
+                        <div class="main-slide__counter-inner">
+                          <div class="main-slide__counter tp-caption"
+                            data-frames='[{"delay":"+190","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]'
+                            data-height="none" data-hoffset="['0','0','0','0']" data-responsive="off"
+                            data-responsive_offset="off" data-textAlign="['inherit','inherit','inherit','inherit']"
+                            data-type="text" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="none"
+                            data-x="['left','left','left','left']" data-y="['top','top','top','top']">
+                            <span>04</span>
+                            <span class="main-slide__counter-all">/04</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <!-- logo đối tác hàng trên-->
-      <div class="clients-wrapper">
-        <div class="container">
-          <div class="clients">
-            <div class="clients__list">
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/logoryo1.png" />
-                </div>
+        <div class="main-slider__footer">
+          <div class="container-fluid">
+            <div class="main-slider__footer-inner">
+              <div class="main-slider__socials">
+                <a class="main-slider__social-link icofont-facebook" href="https://www.facebook.com/sydocorp">
+                  <div class="visually-hidden">facebook</div>
+                </a>
+                <a class="main-slider__social-link fab fa-youtube"
+                  href="https://www.youtube.com/channel/UCZJYt_C94iJMMWXJ-yQ3G0w">
+                  <div class="visually-hidden">youtube</div>
+                </a>
               </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/logohuynhthy.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/tanvuonglogo.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/logoquandat.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/sydocorp_tancanghiepphuoc.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/sydocorp_logo_ADE.png" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- logo đối tác hàng dưới-->
-      <div class="clients-wrapper1">
-        <div class="container">
-          <div class="clients">
-            <div class="clients__list">
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/logoviethanh.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/LOGOKOINURSERY.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/logomgvungtau.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/logo-xay-dung-lcc.png" />
-                </div>
-              </div>
-              <div class="clients__item">
-                <div class="clients__item-inner">
-                  <img alt="" src="img/logo-setia.png" />
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
@@ -438,602 +584,940 @@
       <div class="cards-block">
         <div class="cards-block__head">
           <div class="container">
-            <div class="row">
-              <div class="col-12 col-lg-6 col-xl-5">
-                <div class="cards-block__title">Chúng tôi với đội ngũ Chuyên gia và Kiến trúc sư tận tâm mong muốn hợp
-                  tác làm việc để làm hài lòng Quý khách</div>
-              </div>
-              <div class="col-12 col-lg-6 offset-xl-1">
-                <div class="cards-block__text">Những dự án của SYDO CORP thực hiện đều được chủ đầu tư đánh giá
-                  rất cao.
-                  Công trình kiến trúc hướng đến các giá trị của Chân - Thiện - Mỹ,
-                  vừa đáp ứng được sự mong mỏi từ chủ đầu tư vừa định hình phong cách sáng tác kiến trúc của
-                  công ty.
-                </div>
-              </div>
+            <div class="chuyendong">
+              <p>Tại sao chọn <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            </div>
+            <div class="single-post__text">
+              <p style="font-style: italic;">Trong cùng 1 hệ sinh thái SYDO, chúng tôi mang đến trải nghiệm dịch vụ sản
+                phẩm đồng bộ. Khách hàng có
+                thể tưởng tượng một căn nhà được bàn giao chuẩn chỉnh từ khâu thiết kế, xin phép xây dựng, thi công bàn
+                giao xây dựng hoàn thiện và nội thất, hoàn công, bảo hành trọn gói. Chúng tôi đặt tâm huyết và trách
+                nhiệm lên hàng đầu để làm Quí khách hàng cảm thấy yên tâm và hài lòng nhất về dịch vụ tư vấn thiết kế và
+                thi công xây dựng của SYDO mang lại.<br>
+              </p>
+              <p style="font-style: italic;"> - Thiết kế: tỉ mỉ, sáng tạo, thẩm mỹ cao.<br>
+                - Thi công: đạt chuẩn, chất lượng cao.<br>
+                - Nội thất: đầy đủ, tiện nghi nhất.<br>
+                - Bảo hành: nhanh chóng, trách nhiệm, trọn gói từ Kiến trúc - Xây dựng - Nội thất - Vận hành sử dụng.
+              </p>
+              <p>Một điểm đặc biệt, các dự án của SYDO CORP thực hiện đều là công trình thực tế đã bàn giao đi vào sử
+                dụng, qua đó chứng minh được “người thật việc thật”, nâng tầm chất lượng và uy tín.</p>
             </div>
           </div>
         </div>
-        <div class="cards">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="cards__item col-12 col-md-6 col-xl-3">
-                <a class="cards__item-inner" href="kientruc.html" style="background-image: url('img/4 (2).jpg')">
-                  <span class="cards__item-content"><span class="cards__item-index">01</span><span
-                      class="cards__item-title">Kiến Trúc</span><span class="cards__item-text">Các dự án của SYDO hướng
-                      đến thiết kế kiến trúc theo phong cách hiện đại, chú trọng đến giá trị thẩm mỹ mà vẫn đảm bảo tiêu
-                      chuẩn về chất lượng công trình.
-                    </span><span class="cards__arrow icon-chevron-right"></span></span>
-                </a>
-              </div>
-              <div class="cards__item col-12 col-md-6 col-xl-3">
-                <a class="cards__item-inner" href="noithat.html" style="background-image: url('img/5 (6).jpg')">
-                  <span class="cards__item-content"><span class="cards__item-index">02</span><span
-                      class="cards__item-title">Nội Thất</span><span class="cards__item-text">Các thiết kế nội thất của
-                      SYDO đều sử dụng từ những chất liệu tốt nhất, được chọn lọc theo từng phong cách thiết kế, nhằm
-                      mang lại giá trị thẩm mỹ cho từng gian phòng.</span><span
-                      class="cards__arrow icon-chevron-right"></span></span>
-                </a>
-              </div>
-              <div class="cards__item col-12 col-md-6 col-xl-3">
-                <a class="cards__item-inner" href="canhquan.html" style="background-image: url('img/3.jpg')">
-                  <span class="cards__item-content"><span class="cards__item-index">03</span><span
-                      class="cards__item-title">Cảnh Quan</span><span class="cards__item-text">SYDO nhận thấy thiết kế
-                      cảnh quan xanh, hài hòa giữa không gian sống và thiên nhiên ngày càng được chú trọng, các hạng mục
-                      thiết kế gồm nhà phố, căn hộ, công viên…</span><span
-                      class="cards__arrow icon-chevron-right"></span></span>
-                </a>
-              </div>
-              <div class="cards__item col-12 col-md-6 col-xl-3">
-                <a class="cards__item-inner" href="tuvangiamsat.html"
-                  style="background-image: url('img/tuvangiamsat_home.jpg')">
-                  <span class="cards__item-content"><span class="cards__item-index">04</span><span
-                      class="cards__item-title">Tư Vấn Giám Sát</span><span class="cards__item-text">Quá trình lên ý
-                      tưởng, thiết kế đến thi công đều được SYDO tư vấn giám sát nghiêm ngặt nhằm đảm bảo chất lượng, an
-                      toàn cho mọi dự án.</span><span class="cards__arrow icon-chevron-right"></span></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="features-block">
-        <div class="container">
-          <div class="features-block__subtitle">Tại Sao Chọn Chúng Tôi</div>
-          <div class="features-block__title">Tại Sao Chúng Tôi Khác Biệt?</div>
-          <div class="features-block__text">Với bề dày kinh nghiệm và sứ mệnh hướng đến các giá trị “Chân - Thiện - Mỹ”,
-            chúng tôi tự tin cung cấp những giải pháp toàn diện từ thiết kế đến thi công, nhằm mang lại cho khách hàng
-            không gian sống chất lượng nhất.
-          </div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="features-block__item">
-                <div class="features-block__feature-icon icon-users2"></div>
-                <div class="features-block__feature-title">Đội Ngũ Chuyên Nghiệp</div>
-                <div class="features-block__feature-text">SYDO là tập thể những con người giỏi về chuyên môn, giàu kinh
-                  nghiệm thực tế và luôn tâm huyết với nghề</div>
+          <div class="col-md-4 col-sm-6">
+              <div class="box">
+                  <img src="img/3-img/kien-truc.jpg">
+                  <div class="box-content">
+                      <h3 class="title">KIEN TRUC</h3>
+                      <span class="post">THIET KE KIEN TRUC</span>
+                  </div>
               </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="features-block__item">
-                <div class="features-block__feature-icon icon-clock"></div>
-                <div class="features-block__feature-title">Đảm Bảo Tiến Độ</div>
-                <div class="features-block__feature-text">Bằng sự phối hợp nhịp nhàng và linh hoạt trong xử lý vấn đề,
-                  chúng tôi cam kết bàn giao đúng tiến độ đã thỏa thuận </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="features-block__item">
-                <div class="features-block__feature-icon icon-cash-dollar"></div>
-                <div class="features-block__feature-title">Chính Sách Ưu Đãi</div>
-                <div class="features-block__feature-text">Chúng tôi cung cấp các gói dịch vụ tư vấn thiết kế và thi công
-                  phù hợp với từng nhu cầu, báo giá hợp lý và minh bạch </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="features-block__item">
-                <div class="features-block__feature-icon icon-bubbles"></div>
-                <div class="features-block__feature-title">Tư Vấn Tận Tâm</div>
-                <div class="features-block__feature-text">SYDO luôn sẵn sàng giải đáp những thắc mắc của khách hàng,
-                  mong muốn mang đến những trải nghiệm tốt nhất cho quý khách</div>
-              </div>
-            </div>
           </div>
+          <div class="col-md-4 col-sm-6">
+              <div class="box">
+                  <img src="img/3-img/xay-dung.jpg">
+                  <div class="box-content">
+                      <h3 class="title">XAY DUNG</h3>
+                      <span class="post">THI CONG XAY DUNG</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="box">
+                <img src="img/3-img/noi-that.png">
+                <div class="box-content">
+                    <h3 class="title">NOI THAT</h3>
+                    <span class="post">THIET KE NOI THAT</span>
+                </div>
+            </div>
         </div>
+          </div>
       </div>
-      <div id="tonghopduan" class="studio-filter">
+      </div>
+
+      <div class="studio-filter">
         <div class="masonry masonry-block">
           <div class="container">
             <div class="masonry-block__head">
-              <div class="masonry__primary-filters">
-                <button class="masonry__primary-filter-button masonry__primary-filter-button_active"
-                  data-tab-button="category" type="button">Dự Án</button>
-
-
+              <div class="minimal-head-block__title" style="text-align: center; color: #000; font-size: 50px;">
+                DỰ ÁN
               </div>
-              <div class="masonry__secondary-filters-wrapper">
-                <div class="masonry__secondary-filters masonry__secondary-filters_active" data-tab-group="category">
-                  <button class="masonry__secondary-filter-button masonry__secondary-filter-button_active"
-                    data-filter="*" type="button">Tất cả</button>
-                  <button class="masonry__secondary-filter-button" data-filter="Architecture" type="button">Kiến
-                    Trúc</button>
-                  <button class="masonry__secondary-filter-button" data-filter="Interior Design" type="button">Nội
-                    Thất</button>
-                  <button class="masonry__secondary-filter-button" data-filter="Industrial Design" type="button">Cảnh
-                    Quan</button>
-                  <button class="masonry__secondary-filter-button" data-tab-button="time" type="button">Tư Vấn Giám
-                    Sát</button>
-                </div>
-                <div class="masonry__secondary-filters" data-tab-group="time" style="display: none">
-                  <button class="masonry__secondary-filter-button" data-filter="*" type="button">All</button>
-                  <button class="masonry__secondary-filter-button" data-filter="August" type="button">August</button>
-                  <button class="masonry__secondary-filter-button" data-filter="July" type="button">July</button>
-                  <button class="masonry__secondary-filter-button" data-filter="June" type="button">June</button>
-                  <button class="masonry__secondary-filter-button" data-filter="November"
-                    type="button">November</button>
-                  <button class="masonry__secondary-filter-button" data-filter="October" type="button">October</button>
-                  <button class="masonry__secondary-filter-button" data-filter="September"
-                    type="button">September</button>
-                </div>
-
+              <div class="minimal-head-block__title" style="text-align: center; color: #000; font-size: 30px;">
+                KIẾN TRÚC - NỘI THẤT
               </div>
+            </div>
+            <div class="masonry masonry-block col-12">
+              <iframe width="1110" height="500" src="https://www.youtube.com/embed/BYs3rt5wuVw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="row masonry__grid masonry-block__grid">
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/2 - NHV VILLA - MR. TAI - FINAL/NHV VILLA (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>NHV VILLA</h2>
+                    </div>
+                    <a href="du-an-nhv-villa.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/3 - BTH HOUSE - MR. NGON - FINAL/BTH HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>BTH HOUSE</h2>
+                    </div>
+                    <a href="du-an-bth-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/4 - HLQ HOUSE - MR. HOAI - FINAL/HLQ HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>HLQ HOUSE</h2>
+                    </div>
+                    <a href="du-an-hql-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/5 - CT8 HOUSE - MR. VINH - FINAL/CT8 HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>CT8 HOUSE</h2>
+                    </div>
+                    <a href="du-an-ct8-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/6 - AP2 HOUSE - MR. VU - FINAL/AP2 HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>AP2 HOUSE</h2>
+                    </div>
+                    <a href="ap2-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/7 - DNT HOUSE - MR. TRUONG - FINAL/DNT HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>DNT HOUSE</h2>
+                    </div>
+                    <a href="du-an-dnt-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/8 - NTL HOUSE - MR. THIET - FINAL/NTL HOUSE (2).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>NTL HOUSE </h2>
+                    </div>
+                    <a href="du-an-ntl-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/9 - BAL HOUSE - MR. THANG - FINAL/BAL HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>BAL HOUSE</h2>
+                    </div>
+                    <a href="du-an-bal-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/10 - TGH HOUSE - MR. HOA - FINAL/TGH HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>TGH HOUSE</h2>
+                    </div>
+                    <a href="du-an-tgh-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/11 - MXV PENHOUSE - MR. TAI - FINAL/MXV PENHOUSE (1).jpg"
+                    alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>MXV PENHOUSE</h2>
+                    </div>
+                    <a href="du-an-mxv-penthouse.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file-du-an-sydo/12 - VQ9 VILLA - MR. HUNG - FINAL/VQ9 VILLA  (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>VQ9 VILLA</h2>
+                    </div>
+                    <a href="du-an-vq9-villa.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="container">
+            <div class="masonry-block__head">
+              <div class="minimal-head-block__title" style="text-align: center; color: #000; font-size: 50px;">
+                THI CÔNG
+              </div>
+              <div class="minimal-head-block__title" style="text-align: center; color: #000; font-size: 30px;">
+                XÂY DỰNG | TRỌN GÓI
+              </div>
+            </div>
+            <div class="masonry masonry-block">
+              <iframe width="1050" height="500" src="https://www.youtube.com/embed/NfIHaKnCbqA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
             <div class="masonry__grid masonry-block__grid row">
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design, Architecture"
-                  href="project-biet-thu-ta-dung-dak-nong.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/BIET THU TA DUNG/biet-thu-ta-dung.jpg" />
-                  </div>
-                  <span class="masonry-item__title">Dự án biệt thự Tà Đùng</span>
-                  <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-                </a>
-              </div>
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design, Architecture"
-                  href="thiet-ke-thi-cong-du-an-nha-an-phu.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/nha-an-phu_sydocorp/bgr_anphu_sydo.png" />
-                  </div>
-                  <span class="masonry-item__title">Nhà An Phú - Nhà ở</span>
-                  <span class="masonry-item__category">Kiến Trúc - Nội Thất</span>
-                </a>
-              </div>
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design, Architecture" href="nhabentre.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/--- NHÀ BẾN TRE/nhabentre.jpg" />
-                  </div>
-                  <span class="masonry-item__title">Nhà Bến Tre</span>
-                  <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-                </a>
-              </div>
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design, Architecture, Industrial Design"
-                  href="nhanamho.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/NHÀ NAM HỒ/nhanamho.jpg" />
-                  </div>
-                  <span class="masonry-item__title">Nhà Nam Hồ</span>
-                  <span class="masonry-item__category">Kiến Trúc, Nội Thất, Cảnh Quan</span>
-                </a>
-              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
 
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design, Architecture" href="showroomMG.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/--- SHOWROOM MG/nen.png" />
-                  </div>
-                  <span class="masonry-item__title">SHOWROOM MG</span>
-                  <span class="masonry-item__category">Kiến Trúc-Nội Thất</span>
-                </a>
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/2 - NHV VILLA - MR. TAI/1a.jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>NHV VILLA</h2>
+                    </div>
+                    <a href="nhv-villa.html"></a>
+                  </figcaption>
+                </figure>
               </div>
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design, Architecture" href="penthouse-vung-tau.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/Penthouse_sydo/penthouse-vung-tau-sydocorp.jpg" />
-                  </div>
-                  <span class="masonry-item__title">Penthouse Vũng Tàu</span>
-                  <span class="masonry-item__category">Kiến Trúc-Nội Thất</span>
-                </a>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/3 - VV3 HOUSE - ARCH/VV3 HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>VV3 HOUSE</h2>
+                    </div>
+                    <a href="vv3-house.html"></a>
+                  </figcaption>
+                </figure>
               </div>
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design" href="noithat-SPAQ12.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/SPA Q.12/sss.jpg" />
-                  </div>
-                  <span class="masonry-item__title">SPA Quận 12</span>
-                  <span class="masonry-item__category">Nội Thất</span>
-                </a>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/4 - RFV HOUSE - ARCH/RFV HOUSE - ARCH (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>RFV HOUSE</h2>
+                    </div>
+                    <a href="rfv-house.html"></a>
+                  </figcaption>
+                </figure>
               </div>
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design, Architecture" href="nhacmt8.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/Nhà CMT8/sydocorp_NhaCachMangThang8.jpg" />
-                  </div>
-                  <span class="masonry-item__title">Nhà Cách Mạng Tháng 8 - Nhà ở</span>
-                  <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-                </a>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/5 - BTH HOUSE - MR. NGON/1.jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>BTH HOUSE</h2>
+                    </div>
+                    <a href="bth-house.html"></a>
+                  </figcaption>
+                </figure>
               </div>
-              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-                <a class="masonry-item" data-filters="Interior Design" href="canhothuthiemdragon.html">
-                  <div class="masonry-item__image-wrapper">
-                    <img alt="" class="masonry-item__image" src="img/CĂN HỘ THỦ THIÊM DRAGON/nen.png" />
-                  </div>
-                  <span class="masonry-item__title">Căn Hộ Thủ Thiêm Dragon - Căn Hộ</span>
-                  <span class="masonry-item__category">Nội Thất</span>
-                </a>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/6 - XTV HOUSE - ARCH/XTV HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>XTV HOUSE</h2>
+                    </div>
+                    <a href="xtv-house.html"></a>
+                  </figcaption>
+                </figure>
               </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
 
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/7 - MXV PENHOUSE - MR. TAI/MXV PENHOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>MXV PENHOUSE</h2>
+                    </div>
+                    <a href="mxv-penthouse.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
 
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/8 - AP2 HOUSE - MR. VU/AP2 HOUSE (2).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>NHÀ NAM HỒ</h2>
+                    </div>
+                    <a href="ap2-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
 
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/9 - TNI HOUSE - ARCH/TNI HOUSE (3).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>TNI HOUSE</h2>
+                    </div>
+                    <a href="tni-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
 
-
-
+                <figure class="snip0016">
+                  <img src="img/file_xay_dung_sydo/10 - TMQ HOUSE - ARCH/TMQ HOUSE (1).jpg" alt="sample11" />
+                  <figcaption>
+                    <div>
+                      <h2>TMQ HOUSE</h2>
+                    </div>
+                    <a href="tmq-house.html"></a>
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
-
-          <div>
+          <div class="zoom-services">
+            <div class="price-heading clearfix">
+              <h1>Quy Trình Thực Hiện Dự Án</h1>
+            </div>
             <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-5">
-                  <div class="heading-group">
-                    <div class="heading-group__title"> Quy trình để thực hiện một
-                      <br>
-                      dự án
-                    </div>
-                    <div class="heading-group__text">Để hoàn thành một dự án đều CẦN có một quy trình làm việc cụ thể
-                    </div>
-                  </div>
-                  <div class="collapse-list">
-                    <div class="collapse-list__collapse">
-                      <a class="collapse-list__collapse-head collapsed" data-toggle="collapse" href="#collapse1">1. Tư
-                        Vấn - Lên Ý
-                        Tưởng
-                        <span class="collapse-list__collapse-head-icon icon-chevron-up"></span>
-                      </a>
-                      <div class="collapse-list__collapse-text collapse" id="collapse1">
-                        <div class="collapse-list__collapse-text-inner">Tiếp nhận thông tin và nhu cầu thiết kế, tiến
-                          hành khảo sát và đánh giá hiện trạng, thực hiện thiết kế tổng quan và báo giá hợp đồng thiết
-                          kế, thi công.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="collapse-list__collapse">
-                      <a class="collapse-list__collapse-head collapsed" data-toggle="collapse" href="#collapse2">2. Hoàn
-                        Thiện
-                        Thiết Kế
-                        <span class="collapse-list__collapse-head-icon icon-chevron-up"></span>
-                      </a>
-                      <div class="collapse-list__collapse-text collapse" id="collapse2">
-                        <div class="collapse-list__collapse-text-inner">Hoàn thiện hồ sơ thiết kế sau khi đã tiếp nhận
-                          các ý kiến từ khách hàng.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="collapse-list__collapse">
-                      <a class="collapse-list__collapse-head collapsed" data-toggle="collapse" href="#collapse3">3.
-                        Thi Công - Giám Sát
-                        <span class="collapse-list__collapse-head-icon icon-chevron-up"></span>
-                      </a>
-                      <div class="collapse-list__collapse-text collapse" id="collapse3">
-                        <div class="collapse-list__collapse-text-inner">Quá trình thi công được thực hiện dưới sự giám
-                          sát chặt chẽ của đội ngũ công ty, khắc phục kịp thời những vấn đề phát sinh và báo cáo chi
-                          tiết cho chủ đầu tư
-                        </div>
-                      </div>
-                    </div>
-                    <div class="collapse-list__collapse">
-                      <a class="collapse-list__collapse-head collapsed" data-toggle="collapse" href="#collapse4">4.
-                        Nghiệm Thu - Bàn Giao
-                        <span class="collapse-list__collapse-head-icon icon-chevron-up"></span>
-                      </a>
-                      <div class="collapse-list__collapse-text collapse" id="collapse4">
-                        <div class="collapse-list__collapse-text-inner">Quy trình kiểm tra, thẩm định chất lượng công
-                          trình trước khi bàn giao cho chủ đầu tư đưa vào sử dụng.
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-12 col-lg-6 offset-lg-1">
-                  <div class="studio-reviews__person-name">Video dự án thực tế
-                  </div>
-                  <a class="video-block popup-video" href="https://www.youtube.com/watch?v=EIGTdZcgUYY" target="_blank">
-                    <img alt="" src="img/NHÀ NAM HỒ/webnamho1/1.jpg" />
-                    <span class="video-block__play"></span>
+              <div class="zoom-services__wrapper">
+                <div class="zoom-services__list">
+                  <a class="zoom-services__item" href="#">
+                    <span class="zoom-services__item-title">Bước 1: <br> Tư Vấn - Thương Thảo Hợp Đồng</span>
+                    <span class="zoom-services__item-text">Tiếp nhận thông tin và nhu cầu thiết kế, tiến thành khảo sát
+                      và đánh giá hiện trạng, thực hiện thiết kế tổng quan và báo giá hợp đồng thiết kế, thi công</span>
                   </a>
+                  <a class="zoom-services__item" href="#">
+                    <span class="zoom-services__item-title">Bước 2:<br> Hoàn Thiện Thiết Kế</span>
+                    <span class="zoom-services__item-text">Hoàn thiện hồ sơ thiết kế sau khi đã tiếp nhận
+                      các ý kiến từ khác hàng</span>
 
-                  <a class="video-block popup-video" href="https://www.youtube.com/watch?v=Lq56B6_GYT4" target="_blank">
-                    <img alt="" src="img/--- NHÀ BẾN TRE/2 (21) (1).jpg" />
-                    <span class="video-block__play"></span>
                   </a>
+                  <a class="zoom-services__item" href="#">
+                    <span class="zoom-services__item-title">Bước 3:<br> Thi Công - Giám Sát</span>
+                    <span class="zoom-services__item-text">Quá trình thi công được thực hiện dưới sự giám sát chặt chẽ
+                      của đội ngũ công ty, khác phục kịp thời những vấn đề phát sinh và báo cáo chi tiết cho chủ đầu
+                      tư</span>
 
+                  </a>
+                  <a class="zoom-services__item" href="#">
+                    <span class="zoom-services__item-title">Bước 4: <br> Nghiệm Thu - Bàn Giao</span>
+                    <span class="zoom-services__item-text">Quy trình kiểm tra, thẩm định chất lượng công trình trước khi
+                      bàn giao cho chủ đầu tư đưa vào sử dụng</span>
+
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="studio-reviews">
-            <div class="container">
-              <div class="studio-reviews__head">
-                <div class="studio-reviews__title">Nhận xét của khách hàng</div>
-
-              </div>
-              <div class="studio-reviews__slider swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="studio-reviews__review swiper-slide">
-                    <div class="studio-reviews__review-status">Nổi Bật -
-                      <div class="studio-reviews__review-stars">
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                      </div>
-                    </div>
-                    <div class="studio-reviews__review-text">"Tôi đã sử dụng nhà ở mà Sydo thiết kế thi công được 1 năm
-                      rồi, tôi thấy rất hài lòng với thiết kế kiến trúc cũng như nội thất bên trong. Mọi thứ đều rất
-                      tốt, phù hợp với sở thích của cả gia đình chúng tôi."
-                    </div>
-                  </div>
-                  <div class="studio-reviews__review swiper-slide">
-                    <div class="studio-reviews__review-status">Nổi Bật -
-                      <div class="studio-reviews__review-stars">
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                      </div>
-                    </div>
-                    <div class="studio-reviews__review-text">"Em đã biết đến Sydo qua giới thiệu từ 1 người bạn. Em rất
-                      hài lòng với phương án thiết kế nội thất căn hộ của Sydo, thiết kế trẻ trung hiện đại và tối giản,
-                      phù hợp với người trẻ như em sau 1 ngày làm việc về nghỉ ngơi thấy rất thư giãn.
-                      "
-                    </div>
-                  </div>
-                  <div class="studio-reviews__review swiper-slide">
-                    <div class="studio-reviews__review-status">Nổi Bật -
-                      <div class="studio-reviews__review-stars">
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                        <div class="studio-reviews__review-star icofont-star"></div>
-                      </div>
-                    </div>
-                    <div class="studio-reviews__review-text">"tôi là phụ huynh của bé đang học tại trường mầm non Koi
-                      quận 8, tôi rất thích thiết kế theo phong cách Nhật Bản của trường, đặc biệt bé nhà tôi rất thích
-                      khu vui chơi liên hoàn. Chúc Sydo ngày càng phát triển trong tương lai."
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="studio-reviews__buttons swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="studio-reviews__person studio-reviews__person_active swiper-slide">
-                    <div class="studio-reviews__person-image">
-                      <img alt="" src="img/ảnh khách hàng tư vấn/sydocorp_phanhoikhachhang.jpg" />
-                    </div>
-                    <div class="studio-reviews__person-name">Trần Văn Lợi</div>
-
-                  </div>
-                  <div class="studio-reviews__person swiper-slide">
-                    <div class="studio-reviews__person-image">
-                      <img alt="" src="img/ảnh khách hàng tư vấn/sydocorp_phanhoikhachhang1.jpeg" />
-                    </div>
-                    <div class="studio-reviews__person-name">Nguyễn Thị Thảo Nguyên</div>
-
-                  </div>
-                  <div class="studio-reviews__person swiper-slide">
-                    <div class="studio-reviews__person-image">
-                      <img alt="" src="img/ảnh khách hàng tư vấn/sydo_phanhoikhachhang.jpg" />
-                    </div>
-                    <div class="studio-reviews__person-name">Trương Hoài Niệm</div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="team-block">
-            <div class="container">
-              <div class="team-block__body team-block__body team-block__body_bordered">
-                <div class="heading-group heading-group heading-group_centered">
-                  <div class="heading-group__subtitle">Đội Ngũ Của Chúng Tôi</div>
-
-                  <div class="heading-group__text">Đội ngũ SYDO là tập thể những con người giỏi về chuyên môn, giàu kinh
-                    nghiệm thực tế và luôn tâm huyết với nghề
-                  </div>
-                </div>
-                <div class="team-block__slider-wrapper">
-                  <button class="team-block__control team-block__control_prev icon-chevron-left" type="button">
-                    <span class="visually-hidden">prev</span>
-                  </button>
-                  <button class="team-block__control team-block__control_next icon-chevron-right" type="button">
-                    <span class="visually-hidden">next</span>
-                  </button>
-                  <div class="team-block__slider swiper-container">
-                    <div class="swiper-wrapper">
-                      <div class="team-block__slide swiper-slide">
-                        <div class="team-block__image-wrapper">
-                          <img alt="" src="img/Đội Ngũ Chúng Tôi/avt_sinh.jpg" />
-                          <div class="team-block__hover">
-                            <div class="socials">
-                              <a class="socials__social icofont-instagram" href="#">
-                                <div class="visually-hidden">instagram</div>
-                              </a>
-                              <a class="socials__social icofont-facebook" href="#">
-                                <div class="visually-hidden">facebook</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="team-block__person-name">Phạm Tiên Sinh </div>
-                        <div class="team-block__person-role">Thạc Sĩ Kiến Trúc Sư</div>
-                        <div class="team-block__person-role">Giảng viên ĐH Văn Lang</div>
-                      </div>
-                      <div class="team-block__slide swiper-slide">
-                        <div class="team-block__image-wrapper">
-                          <img alt="" src="img/Đội Ngũ Chúng Tôi/NguyenHuuTri.jpg" />
-                          <div class="team-block__hover">
-                            <div class="socials">
-                              <a class="socials__social icofont-instagram" href="#">
-                                <div class="visually-hidden">instagram</div>
-                              </a>
-                              <a class="socials__social icofont-facebook" href="#">
-                                <div class="visually-hidden">facebook</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="team-block__person-name">Nguyễn Hữu Trí</div>
-                        <div class="team-block__person-role">Thạc Sĩ Kiến Trúc Sư</div>
-                        <div class="team-block__person-role">Giảng viên ĐH Kiến Trúc TPHCM</div>
-                      </div>
-                      <div class="team-block__slide swiper-slide">
-                        <div class="team-block__image-wrapper">
-                          <img alt="" src="img/Đội Ngũ Chúng Tôi/NguyenHoaBinh.jpg" />
-                          <div class="team-block__hover">
-                            <div class="socials">
-                              <a class="socials__social icofont-instagram" href="#">
-                                <div class="visually-hidden">instagram</div>
-                              </a>
-                              <a class="socials__social icofont-facebook" href="#">
-                                <div class="visually-hidden">facebook</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="team-block__person-name">Nguyễn Hòa Bình</div>
-                        <div class="team-block__person-role">Kỹ Sư Trưởng</div>
-                        <div class="team-block__person-role">Chỉ Huy Công Trình</div>
-                      </div>
-                      <div class="team-block__slide swiper-slide">
-                        <div class="team-block__image-wrapper">
-                          <img alt="" src="img/Đội Ngũ Chúng Tôi/anhBao.jpg" />
-                          <div class="team-block__hover">
-                            <div class="socials">
-                              <a class="socials__social icofont-instagram" href="#">
-                                <div class="visually-hidden">instagram</div>
-                              </a>
-                              <a class="socials__social icofont-facebook" href="#">
-                                <div class="visually-hidden">facebook</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="team-block__person-name">Trương Phạm Thế Bảo</div>
-                        <div class="team-block__person-role">Kiến Trúc Sư</div>
-                        <div class="team-block__person-role">Thiết Kế Nội Thất</div>
-                      </div>
-                      <div class="team-block__slide swiper-slide">
-                        <div class="team-block__image-wrapper">
-                          <img alt="" src="img/Đội Ngũ Chúng Tôi/chiThu.jpg" />
-                          <div class="team-block__hover">
-                            <div class="socials">
-                              <a class="socials__social icofont-instagram" href="#">
-                                <div class="visually-hidden">instagram</div>
-                              </a>
-                              <a class="socials__social icofont-facebook" href="#">
-                                <div class="visually-hidden">facebook</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="team-block__person-name">Lê Thị Anh Thư</div>
-                        <div class="team-block__person-role">Kiến Trúc Sư</div>
-                        <div class="team-block__person-role">Thiết Kế Kiến Trúc</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="awards-block">
-            <div class="container">
-              <div class="heading-group heading-group heading-group_centered">
-                <div class="heading-group__subtitle">Thành Tích - Giải Thưởng</div>
-
-              </div>
-              <div class="awards-block__body">
-                <div class="awards-block__item">
-                  <div class="awards-block__year">2018</div>
-                  <div class="awards-block__list">
-                    <div class="awards-block__text">Giải ba Cuộc thi tuyển chọn phương án thiết kế kiến trúc đảo nổi hồ
-                      trung tâm Gia Nghĩa của Sở Xây dựng tỉnh Đắk Nông
-                      <div class="awards-block__text-footer"><a href="congviendaonoihogianghia.html">Dự án “Công viên
-                          đảo nổi hồ trung tâm Gia Nghĩa tỉnh Đắk Nông”</a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="awards-block__item">
-                  <div class="awards-block__year">2019</div>
-                  <div class="awards-block__list">
-                    <div class="awards-block__text">Giải khuyến khích cuộc thi tuyển chọn phương án thiết kế kiến trúc
-                      Trung tâm hoạt động Công Đoàn tỉnh Bình Dương
-                      <div class="awards-block__text-footer"><a href="TT-HD-CD-Binh-Duong.html">Dự án “Trung tâm
-                          hoạt động Công Đoàn tỉnh Bình Dương”</a></div>
-                    </div>
-                    <div class="awards-block__text">Giải ba cuộc thi tuyển chọn phương án thiết kế kiến trúc Cổng chào
-                      Khu du lịch Quốc Gia Núi Sam của UBND Thành phố Châu Đốc, tỉnh An Giang
-                      <div class="awards-block__text-footer"><a href="congchaonuisam.html">Dự án “Cổng chào Khu du lịch
-                          Quốc Gia Núi Sam Châu Đốc tỉnh An Giang”</a></div>
-                    </div>
-                    <div class="awards-block__text">Giải thưởng Top 10 Houses - Giải thưởng được tổ chức bởi Kienviet
-                      Media và bảo trợ chuyên môn bởi Hội Kiến trúc sư Việt Nam nhằm tìm kiếm xu hướng kiến trúc nhà ở
-                      đương đại và những đại diện tiêu biểu trong ngành Nội thất tại Việt Nam
-                      <div class="awards-block__text-footer"><a href="nhanamho.html"> Dự án "Biệt thự nghỉ dưỡng Nam Hồ,
-                          Đà Lạt"</a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="studio-posts">
-            <div class="heading-group heading-group_centered">
-              <div class="heading-group__subtitle">Tin Tức</div>
-            </div>
-            <div class="posts">
+          <!--Bảng giá thiết kế-->
+          <div id="generic_price_table">
+            <section>
               <div class="container">
                 <div class="row">
-                  <div class="posts__item col-12 col-lg-4">
-                    <a class="posts__item-inner" href="tintuc-nhabentre.html">
-                      <img alt="" class="posts__image" src="img/sydocorp_anh_0406_2022/Hình 4-1.jpg" />
-                      <span class="posts__item-content"><span class="posts__item-footer"><span
-                            class="posts__category">Tin Tức</span><span class="posts__date">June 04,
-                            2022</span></span><span class="posts__item-title">Sắp xếp và trang trí nhà bếp theo phong
-                          cách Nhật Bản đang được ưa chuộng ở nhà phố hiện đại
-                        </span></span>
-                    </a>
+                  <div class="col-md-12">
+                    <!--PRICE HEADING START-->
+                    <div class="price-heading clearfix">
+                      <h1>BẢNG GIÁ THIẾT KẾ</h1>
+                    </div>
+                    <!--//PRICE HEADING END-->
                   </div>
-                  <div class="posts__item col-12 col-lg-4">
-                    <a class="posts__item-inner" href="tintuc-nhanamho.html">
-                      <img alt="" class="posts__image" src="img/sydocorp_anh_0406_2022/Hình 3-2.jpg" />
-                      <span class="posts__item-content"><span class="posts__item-footer"><span
-                            class="posts__category">Tin Tức</span><span class="posts__date">June 04,
-                            2022</span></span><span class="posts__item-title">Thiết kế phòng khách theo phong cách Nhật
-                          Bản phù hợp với xu hướng hiện đại 2022
-                          đại</span></span>
-                    </a>
+                </div>
+              </div>
+              <div class="container">
+
+                <!--BLOCK ROW START-->
+                <div class="row">
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>KIẾN TRÚC</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.00</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">Tư vấn ngay</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
                   </div>
-                  <div class="posts__item col-12 col-lg-4">
-                    <a class="posts__item-inner" href="nhabentre.html">
-                      <img alt="" class="posts__image" src="img/nha-an-phu_sydocorp/bgr_anphu_sydo.png" />
-                      <span class="posts__item-content"><span class="posts__item-footer"><span
-                            class="posts__category">Tin Tức</span><span class="posts__date">June 02,
-                            2022</span></span><span class="posts__item-title">Nhà An Phú - Xu hướng thiết kế nhà, mẫu
-                          nhà đẹp 2022</span></span>
-                    </a>
+
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>NỘI THẤT</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.000</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">TƯ VẤN NGAY</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
+                  </div>
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>CẢI TẠO</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.000</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">TƯ VẤN NGAY</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
+                  </div>
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content active clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>TRỌN GÓI</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.000</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">TƯ VẤN NGAY</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
+                  </div>
+                </div>
+                <!--//BLOCK ROW END-->
+
+              </div>
+            </section>
+          </div>
+          <!-- Bảng giá thi công-->
+          <div id="generic_price_table">
+            <section>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <!--PRICE HEADING START-->
+                    <div class="price-heading clearfix">
+                      <h1>BẢNG GIÁ THI CÔNG</h1>
+                    </div>
+                    <!--//PRICE HEADING END-->
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+
+                <!--BLOCK ROW START-->
+                <div class="row">
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>KIẾN TRÚC</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.00</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">Tư vấn ngay</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
+                  </div>
+
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>NỘI THẤT</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.000</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">TƯ VẤN NGAY</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
+                  </div>
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>CẢI TẠO</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.000</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">TƯ VẤN NGAY</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
+                  </div>
+                  <div class="col-md-3">
+
+                    <!--PRICE CONTENT START-->
+                    <div class="generic_content active clearfix">
+
+                      <!--HEAD PRICE DETAIL START-->
+                      <div class="generic_head_price clearfix">
+
+                        <!--HEAD CONTENT START-->
+                        <div class="generic_head_content clearfix">
+
+                          <!--HEAD START-->
+                          <div class="head_bg"></div>
+                          <div class="head">
+                            <span>TRỌN GÓI</span>
+                          </div>
+                          <!--//HEAD END-->
+
+                        </div>
+                        <!--//HEAD CONTENT END-->
+
+                        <!--PRICE START-->
+                        <div class="generic_price_tag clearfix">
+                          <span class="price">
+                            <span class="sign">VND</span>
+                            <span class="currency">000</span>
+                            <span class="cent">.000</span>
+                            <span class="month">/m2</span>
+                          </span>
+                        </div>
+                        <!--//PRICE END-->
+
+                      </div>
+                      <!--//HEAD PRICE DETAIL END-->
+
+                      <!--FEATURE LIST START-->
+                      <div class="generic_feature_list">
+                        <ul>
+                          <li><span>Nội thất</span> thiết kế</li>
+                          <li><span>Kiến trúc</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                          <li><span>Cảnh quan</span> thiết kế</li>
+                        </ul>
+                      </div>
+                      <!--//FEATURE LIST END-->
+
+                      <!--BUTTON START-->
+                      <div class="generic_price_btn clearfix">
+                        <a class="" href="">TƯ VẤN NGAY</a>
+                      </div>
+                      <!--//BUTTON END-->
+
+                    </div>
+                    <!--//PRICE CONTENT END-->
+
+                  </div>
+                </div>
+                <!--//BLOCK ROW END-->
+
+              </div>
+            </section>
+          </div>
+          <div class="zoom-slider zoom-slider zoom-slider_top-offset">
+            <div class="zoom-slider__header">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-2">
+                    <div class="zoom-slider__title">TIN TỨC</div>
+                  </div>
+                  <div class="col-12 text-lg-right">
+                    <div class="zoom-slider__filter">
+                      <a class="zoom-slider__filter-link link link link_active" data-value="all" href="#">TẤT CẢ</a>
+                      <a class="zoom-slider__filter-link link" data-value="pctk" href="#">PHONG CÁCH THIẾT KẾ</a>
+                      <a class="zoom-slider__filter-link link" data-value="pt" href="#">PHONG THỦY</a>
+                      <a class="zoom-slider__filter-link link" data-value="vlieu" href="#">VẬT LIỆU</a>
+                      <a class="zoom-slider__filter-link link" data-value="blog" href="#">BLOG CHIA SẺ KINH NGHIỆM</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="zoom-slider__slider-wrapper">
+              <button class="zoom-slider__control zoom-slider__control_prev icon-chevron-left" type="button">
+                <span class="visually-hidden">prev</span>
+              </button>
+              <button class="zoom-slider__control zoom-slider__control_next icon-chevron-right" type="button">
+                <span class="visually-hidden">next</span>
+              </button>
+              <div class="zoom-slider__slider swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="zoom-slider__slide swiper-slide" data-filter="pctk"
+                    style="background-image: url('img/black_house_amin_moazzen_bangal_india-8.jpg')"></div>
+                  <div class="zoom-slider__slide swiper-slide" data-filter="pctk"
+                    style="background-image: url('img/DJI_0390.jpg')"></div>
+                  <div class="zoom-slider__slide swiper-slide" data-filter="pctk"
+                    style="background-image: url('img/Contemporary-Desert-Home-Swaback-Architects-01-1-Kindesign.jpg')">
+                  </div>
+                </div>
+              </div>
+              <div class="zoom-slider__buttons swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                  <button class="zoom-slider__button zoom-slider__button_active swiper-slide" data-filter="pctk"
+                    type="button">MODERN
+                    <span class="zoom-slider__button-title">HIỆN ĐẠI</span>
+                  </button>
+                  <button class="zoom-slider__button zoom-slider__button_active swiper-slide" data-filter="pctk"
+                    type="button">TROPICAL
+                    <span class="zoom-slider__button-title">NHIỆT ĐỚI</span>
+                  </button>
+                  <button class="zoom-slider__button zoom-slider__button_active swiper-slide" data-filter="pctk"
+                    type="button">Culture
+                    <span class="zoom-slider__button-title">TRUYỀN THỐNG VÀ BẢN ĐỊA</span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
           </div>
+
     </main>
+
     <footer class="footer-studio footer">
       <div class="container-fluid">
         <div class="row">
@@ -1042,10 +1526,9 @@
             <ul class="footer-studio__list">
               <p>Công Ty TNHH Kiến Trúc Xây Dựng SYDO
                 <br />
-                (SYDO CORPORATION)
+                (SYDO CORP)
               </p>
-
-
+            </ul>
           </div>
           <div class="footer-studio__column col-12 col-xl-3">
             <div class="footer-studio__group-title">Lĩnh Vực Hoạt Động</div>
@@ -1054,13 +1537,10 @@
                 <a class="footer-studio__list-link" href="kientruc.html">Kiến Trúc</a>
               </li>
               <li class="footer-studio__list-item">
+                <a class="footer-studio__list-link" href="thi-cong-tron-goi.htm">Xây Dựng</a>
+              </li>
+              <li class="footer-studio__list-item">
                 <a class="footer-studio__list-link" href="noithat.html">Nội Thất</a>
-              </li>
-              <li class="footer-studio__list-item">
-                <a class="footer-studio__list-link" href="canhquan.html">Cảnh Quan</a>
-              </li>
-              <li class="footer-studio__list-item">
-                <a class="footer-studio__list-link" href="tuvangiamsat.html">Tư Vấn Giám Sát</a>
               </li>
 
             </ul>
@@ -1072,9 +1552,9 @@
                 <br />
                 TP. Thủ Đức, TP. Hồ Chí Minh
               </a></p>
-            <p><a href="tel:0867815109">0867 815 109 </a> - <a href="tel:0877277947">0877 277 947</a>
+            <p><a href="tel:0867815109">Hotline: 0867 815 109 </a>
             </p>
-
+            <p><a href="tel:0916718393">Giám Đốc: 091 671 8393</a></p>
           </div>
           <div class="footer-studio__column col-12 col-sm-6 col-xl-3">
             <div class="footer-studio__group-title">Liên Hệ</div>
@@ -1115,6 +1595,29 @@
           </div>
         </div>
       </div>
+      <!-- Lên đầu trang -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+      <!-- Import thư viện JQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        // kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+        var offset = 500;
+        // thời gian di trượt 0.75s ( 1000 = 1s )
+        var duration = 750;
+        $(function () {
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > offset)
+              $('#top-up').fadeIn(duration);
+            else
+              $('#top-up').fadeOut(duration);
+          });
+          $('#top-up').click(function () {
+            $('body,html').animate({
+              scrollTop: 0
+            }, duration);
+          });
+        });
+      </script>
     </footer>
   </div>
   <!--JS-->
@@ -1135,6 +1638,7 @@
   <script src="assets/js/typed.min.js"></script>
   <script src="assets/js/vivus.min.js"></script>
   <script src="assets/js/water.js"></script>
+
   <!--Revolution JS-->
   <script src="assets/js/revolution/jquery.themepunch.tools.min.js"></script>
   <script src="assets/js/revolution/jquery.themepunch.revolution.min.js"></script>
@@ -1166,6 +1670,66 @@
     }
   </script>
 
+  <script>
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+
+      if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    document.getElementById('myBtn').addEventListener("click", function () {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    });
+  </script>
+  <script>
+    const typedTextSpan = document.querySelector(".typed-text");
+    const cursorSpan = document.querySelector(".cursor");
+
+    const textArray = ["SYDO CORP ?"];
+    const typingDelay = 200;
+    const erasingDelay = 100;
+    const newTextDelay = 2000; // Delay between current and next text
+    let textArrayIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+      if (charIndex < textArray[textArrayIndex].length) {
+        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+        typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, typingDelay);
+      } else {
+        cursorSpan.classList.remove("typing");
+        setTimeout(erase, newTextDelay);
+      }
+    }
+
+    function erase() {
+      if (charIndex > 0) {
+        if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+        typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, erasingDelay);
+      } else {
+        cursorSpan.classList.remove("typing");
+        textArrayIndex++;
+        if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+        setTimeout(type, typingDelay + 1100);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+      if (textArray.length) setTimeout(type, newTextDelay + 250);
+    });
+  </script>
 </body>
 
 </html>

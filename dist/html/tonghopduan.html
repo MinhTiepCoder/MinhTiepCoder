@@ -11,8 +11,7 @@
     content="Tổng hợp những dự án thiết kế thi công của SYDO CORP muốn gửi tới quý vị tham khảo" />
   <link rel="canonical" href="https://sydo.vn/tonghopduan.html" />
   <title>TỔNG HỢP DỰ ÁN - SYDO CORP</title>
-  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Work+Sans:wght@400;500&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;530&display=swap" rel="stylesheet">
   <!--Robots-->
   <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
   <!--CSS-->
@@ -22,6 +21,7 @@
   <link href="assets/css/animsition.min.css" rel="stylesheet">
   <link href="assets/css/swiper.min.css" rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/sydocss.css" rel="stylesheet">
   <!--Theme CSS-->
   <link href="assets/css/theme.css" rel="stylesheet">
   <link href="assets/css/responsive.css" rel="stylesheet">
@@ -55,58 +55,28 @@
 </head>
 
 <body class="page">
-  <!-- Messenger Plugin chat Code -->
-  <div id="fb-root"></div>
+  <div class="lechinh-social">
+    <div class="social-button">
+        <div class="social-button-content">
 
-  <!-- Your Plugin chat code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
-  </div>
+            <a href="https://zalo.me/0867815109" class="zalo" id='contact_zalo' target='_blank'>
+                <i></i>
+                <span>Zalo: 0867815109</span>
+            </a>
 
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "903712243144733");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
+            <a href="tel:0867815109" class="call-icon" rel="nofollow" id='contact_phone'>
+                <i></i>
+                <span>Hotline: 0867815109</span>
+            </a>
 
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function () {
-      FB.init({
-        xfbml: true,
-        version: 'v13.0'
-      });
-    };
+            <a href="https://m.me/sydocorp" class="sms" id='contact_facebook' target='_blank'>
+                <i></i>
+                <span>Facebook Messenger</span>
+            </a>
 
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <div id="icon-fixed-right">
-    <a href="https://zalo.me/2910641720717068631" target="_blank" class="zalo-icon">
-      <img alt="url"
-        src="https://media.metu.vn/fillcolor?url=https%3A%2F%2Fmedia.metu.vn%2Fimages%2Ficon_zalo_01.svg&color=%23ffffff">
-    </a>
-  </div>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/6270ccaeb0d10b6f3e705fa7/1g249v35c';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
-  <!--End of Tawk.to Script-->
+        </div>
+    </div>
+</div>
   <div style="display: none">
     <!-- svg sprite-->
     <svg style="width:0; height:0; visibility:hidden;" xmlns="http://www.w3.org/2000/svg">
@@ -217,18 +187,25 @@
       </div>
     </header>
     <main>
-      <div class="minimal-head-block">
-        <div class="container">
-          <div class="minimal-head-block__title">
-            Tổng Hợp Dự Án
+      <div class='page-header page-header_align_center'
+        style="background-image:url(img/2977c263162315-5ab912e649453_b0aac0878dd37b3e5460ad7f71ac822e.jpg); background-size:cover; background-repeat:no-repeat; background-attachment:scroll; background-position:bottom center;background-color:#323232; height:550px; margin-bottom:40px; padding-top:188px; padding-bottom:88px;">
+        <div class="page-header_wrapper">
+          <div class='wgl-container'>
+            <div class='page-header_content'>
+              <div class="minimal-head-block__title" style="text-align: center; color: #fff;">
+                DỰ ÁN
 
+              </div>
+              <div class='page-header_breadcrumbs' style="color: #ffffff; font-size: 16px; line-height: 24px;">
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="masonry masonry-block">
         <div class="container">
           <div class="masonry-block__head">
-            <div class="masonry__primary-filters">
+            <!--<div class="masonry__primary-filters">
               <button class="masonry__primary-filter-button masonry__primary-filter-button_active "
                 data-tab-button="category" data-filter="*" type="button">Dự Án</button>
               <button class="masonry__primary-filter-button masonry__primary-filter-button_active "
@@ -250,319 +227,147 @@
                   Sát</button>
               </div>
 
+            </div>-->
+            <div class="minimal-head-block__title" style="text-align: center; color: #000; font-size: 30px;">
+              KIẾN TRÚC - NỘI THẤT
+
             </div>
           </div>
+
           <div class="masonry__grid masonry-block__grid row">
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture, Industrial Design"
-                href="nhanamho.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/NHÀ NAM HỒ/nhanamho.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Nam Hồ - Biệt Thự</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất, Cảnh Quan</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/2 - NHV VILLA - MR. TAI - FINAL/NHV VILLA (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>NHV VILLA</h2>
+                  </div>
+                  <a href="du-an-nhv-villa.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture, Industrial Design"
-                href="project-biet-thu-ta-dung-dak-nong.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/BIET THU TA DUNG/biet-thu-ta-dung.jpg" />
-                </div>
-                <span class="masonry-item__title">Biệt Thự Tà Đùng - Biệt Thự</span>
-                <span class="masonry-item__category">Kiến Trúc</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/3 - BTH HOUSE - MR. NGON - FINAL/BTH HOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>BTH HOUSE</h2>
+                  </div>
+                  <a href="du-an-bth-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="penthouse-vung-tau.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/Penthouse_sydo/penthouse-vung-tau-sydocorp.jpg" />
-                </div>
-                <span class="masonry-item__title">Penthouse Vũng Tàu</span>
-                <span class="masonry-item__category">Kiến Trúc-Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/4 - HLQ HOUSE - MR. HOAI - FINAL/HLQ HOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>HLQ HOUSE</h2>
+                  </div>
+                  <a href="du-an-hql-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="duanpenthouse.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/PENTHOUSE/penthouse.jpg" />
-                </div>
-                <span class="masonry-item__title">Penthouse</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/5 - CT8 HOUSE - MR. VINH - FINAL/CT8 HOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>CT8 HOUSE</h2>
+                  </div>
+                  <a href="du-an-ct8-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture"
-                href="thiet-ke-thi-cong-du-an-nha-an-phu.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/nha-an-phu_sydocorp/bgr_anphu_sydo.png" />
-                </div>
-                <span class="masonry-item__title">Nhà An Phú - Nhà ở</span>
-                <span class="masonry-item__category">Kiến Trúc - Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/6 - AP2 HOUSE - MR. VU - FINAL/AP2 HOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>AP2 HOUSE</h2>
+                  </div>
+                  <a href="ap2-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="nhabentre.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/--- NHÀ BẾN TRE/nhabentre.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Bến Tre - Nhà ở</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/7 - DNT HOUSE - MR. TRUONG - FINAL/DNT HOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>DNT HOUSE</h2>
+                  </div>
+                  <a href="du-an-dnt-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="nhacmt8.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/Nhà CMT8/sydocorp_NhaCachMangThang8.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Cách Mạng Tháng 8 - Nhà ở</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/8 - NTL HOUSE - MR. THIET - FINAL/NTL HOUSE (2).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>NTL HOUSE </h2>
+                  </div>
+                  <a href="du-an-ntl-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="thiet-ke-thi-cong-nha-no-trang-long.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/NHÀ NƠ TRANG LONG/bgr_sydo-corp_no-trang-long.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Nơ Trang Long - Nhà ở</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/9 - BAL HOUSE - MR. THANG - FINAL/BAL HOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>BAL HOUSE</h2>
+                  </div>
+                  <a href="du-an-bal-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="nhalythaito.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image"
-                    src="img/NHÀ LÝ THÁI TỔ/3_22bec59b88b04752b1d7b4354715dd31.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Lý Thái Tổ - Nhà ở</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/10 - TGH HOUSE - MR. HOA - FINAL/TGH HOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>TGH HOUSE</h2>
+                  </div>
+                  <a href="du-an-tgh-house.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture"
-                href="thiet-ke-nha-chi-giang-go-vap.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/NHA CHI GIANG - GO VAP/nha-chi-giang-sydo-bgr.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Chị Giang Gò Vấp - Nhà ở</span>
-                <span class="masonry-item__category">Kiến Trúc-Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/11 - MXV PENHOUSE - MR. TAI - FINAL/MXV PENHOUSE (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>MXV PENHOUSE</h2>
+                  </div>
+                  <a href="du-an-mxv-penthouse.html"></a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="nhatiengiang.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/----- NHÀ TIỀN GIANG/nhatiengiang_backgroud.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Tiền Giang - Nhà ở</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item-block col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture, Industrial Design"
-                href="nhahimlam.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/--- NHÀ HIM LAM/nen.png" />
-                </div>
-                <span class="masonry-item__title">Nhà Him Lam - Nhà ở</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất, Cảnh Quan</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="canhothuthiemdragon.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/CĂN HỘ QUẬN 6/anh_nen_tong_hop_du_an.jpg" />
-                </div>
-                <span class="masonry-item__title">Căn Hộ Quận 6 - Căn Hộ</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="canhothuthiemdragon.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/CĂN HỘ THỦ THIÊM DRAGON/nen.png" />
-                </div>
-                <span class="masonry-item__title">Căn Hộ Thủ Thiêm Dragon - Căn Hộ</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="thiet-ke-can-ho-pegasuite.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/CĂN HỘ PEGASUITE/can-ho-pegasuite.7.-sydo.jpg" />
-                </div>
-                <span class="masonry-item__title">Căn Hộ Pegasuite - Căn hộ</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
+            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4 ">
+
+              <figure class="snip0016">
+                <img src="img/file-du-an-sydo/12 - VQ9 VILLA - MR. HUNG - FINAL/VQ9 VILLA  (1).jpg" alt="sample11" />
+                <figcaption>
+                  <div>
+                    <h2>VQ9 VILLA</h2>
+                  </div>
+                  <a href="du-an-vq9-villa.html"></a>
+                </figcaption>
+              </figure>
             </div>
 
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Architecture" href="kientruc-nhabaoloc.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/NHÀ BẢO LỘC/nenn.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Bảo Lộc</span>
-                <span class="masonry-item__category">Kiến Trúc</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="noithatnhabaoloc.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/NHÀ BẢO LỘC/noithat.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Bảo Lộc</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="showroomMG.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/--- SHOWROOM MG/nen.png" />
-                </div>
-                <span class="masonry-item__title">SHOWROOM MG</span>
-                <span class="masonry-item__category">Kiến Trúc-Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="theshowcoffe.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image"
-                    src="img/The Show Coffe/sydocorp_tonghopduan_theshowcoffe.png" />
-                </div>
-                <span class="masonry-item__title">The Show Coffe</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="noithat-SPAQ12.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/SPA Q.12/sss.jpg" />
-                </div>
-                <span class="masonry-item__title">SPA Quận 12</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="thiet-ke-vplv-viet-thanh.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/VPLV VIET THANH/vplv_viet-thanh_sydocorp.jpg" />
-                </div>
-                <span class="masonry-item__title">VPLV Việt Thành</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="cafedienbienphu.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image"
-                    src="img/CAFE ĐIỆN BIÊN PHỦ/cf_1_425733ac5cb74811b59d3ece766f41f7.jpg" />
-                </div>
-                <span class="masonry-item__title">Cafe Điện Biên Phủ</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-              </a>
-            </div>
-
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="thiet-ke-thi-cong-khach-san-le-gia.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/KHÁCH SẠN LÊ GIA/bgr_khach-san-le-gia-sydo.jpg" />
-                </div>
-                <span class="masonry-item__title">Khách Sạn Lê Gia</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="truongmannonKOI.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/TRƯỜNG MẦM NON QUỐC TẾ KOI NURSERY/nenkoi.png" />
-                </div>
-                <span class="masonry-item__title">TRƯỜNG MẦM NON QUỐC TẾ KOI NURSERY</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item-block col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Architecture " href="kientruc-toathaphoasen.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/PHƯƠNG ÁN TK TÒA THÁP HOA SEN/toathapsen.jpg" />
-                </div>
-                <span class="masonry-item__title">Tòa Tháp Hoa Sen</span>
-                <span class="masonry-item__category">Kiến Trúc</span>
-              </a>
-            </div>
-
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Industrial Design" href="canhquan-tanung.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/TÀ NUNG/nenhome.jpg" />
-                </div>
-                <span class="masonry-item__title">Tà Nung</span>
-                <span class="masonry-item__category">Cảnh Quan</span>
-              </a>
-            </div>
-
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture"
-                href="nha-van-hoa-thieu-nhi-khanh-hoa.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image"
-                    src="img/Nhà Văn Hóa Thiếu Nhi Tỉnh Khánh Hòa/sydo_nha_van_hoa_thieu_nhi_khanh_hoa.jpg" />
-                </div>
-                <span class="masonry-item__title">Nhà Văn Hóa Thiếu Nhi Tỉnh Khánh Hòa</span>
-                <span class="masonry-item__category">Kiến Trúc</span>
-              </a>
-            </div>
-
-
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design" href="du-an-thi-cong-ban-tho-to.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/PHƯƠNG ÁN TK BÀN THỜ TỔ/ban-tho-to-sydo-bgr.jpg" />
-                </div>
-                <span class="masonry-item__title">Bàn Thờ Tổ Vua Hùng</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Industrial Design" href="congviendaonoihogianghia.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image"
-                    src="img/PHƯƠNG ÁN TK CÔNG VIÊN ĐẢO NỔI HỒ GIA NGHĨA ĐĂK NÔNG/daohonoi.jpg" />
-                </div>
-                <span class="masonry-item__title">Công Viên Đảo Nổi Hồ Gia Nghĩa </span>
-                <span class="masonry-item__category">Cảnh Quan</span>
-              </a>
-            </div>
-
-
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Interior Design, Architecture" href="showroomhwata.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image" src="img/SHOWROOM HWATA/nen (2).jpg" />
-                </div>
-                <span class="masonry-item__title">SHOWROOM HWATA</span>
-                <span class="masonry-item__category">Kiến Trúc, Nội Thất</span>
-              </a>
-            </div>
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Architecture" href="TT-HD-CD-Binh-Duong.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image"
-                    src="img/PHƯƠNG ÁN TK TRUNG TÂM HOẠT ĐỘNG CÔNG ĐOÀN BÌNH DƯƠNG/tthdcd-binh-duong-sydobgr.jpg" />
-                </div>
-                <span class="masonry-item__title">Trung Tâm Hoạt Động Công Đoàn Tỉnh Bình Dương</span>
-                <span class="masonry-item__category">Nội Thất</span>
-              </a>
-            </div>
-
-            <div class="masonry__item masonry-block__item col-12 col-sm-6 col-lg-4">
-              <a class="masonry-item" data-filters="Architecture, Industrial Design" href="congchaonuisam.html">
-                <div class="masonry-item__image-wrapper">
-                  <img alt="" class="masonry-item__image"
-                    src="img/PHƯƠNG ÁN TK CỔNG CHÀO NÚI SAM/congchaonuisam_nen.jpg" />
-                </div>
-                <span class="masonry-item__title">Cổng Chào Núi Sam</span>
-                <span class="masonry-item__category">Kiến Trúc - Cảnh Quan</span>
-              </a>
-            </div>
 
           </div>
         </div>
@@ -611,8 +416,9 @@
                 <br />
                 TP. Thủ Đức, TP. Hồ Chí Minh
               </a></p>
-            <p><a href="tel:0867815109">0867 815 109 </a> - <a href="tel:0877277947">0877 277 947</a>
-            </p>
+            <p><a href="tel:0867815109">Hotline: 0867 815 109</a> 
+                            </p>
+                            <p><a href="tel:0877277947">Giám Đốc: 0877 277 947</a></p>
           </ul>
         </div>
         <div class="footer-default__column col-12 col-sm-6 col-md-12">

@@ -4641,7 +4641,7 @@ tp-caption.Team-Thumb,
 }
 
 #mc_embed_signup input#mce-EMAIL {
-    font-family: "Lato", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     color: #000;
     background-color: #fff;
@@ -4667,7 +4667,7 @@ tp-caption.Team-Thumb,
 }
 #mc_embed_signup input#mc-embedded-subscribe,
 #mc_embed_signup input#mc-embedded-subscribe:focus {
-    font-family: "Lato", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 46px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -5652,7 +5652,7 @@ tp-caption.Team-Thumb,
         /* IE6-9 */
     }
     #mc_embed_signup input[type="email"] {
-        font-family: "Lato", sans-serif;
+        font-family: 'Quicksand', sans-serif;
         font-size: 16px;
         font-weight: 400;
         background-color: #fff;
@@ -5687,7 +5687,7 @@ tp-caption.Team-Thumb,
     }
     #mc_embed_signup input#mc-embedded-subscribe,
     #mc_embed_signup input#mc-embedded-subscribe:focus {
-        font-family: "Lato", sans-serif;
+        font-family: 'Quicksand', sans-serif;
         line-height: 46px;
         font-size: 16px;
         font-weight: 700;
