@@ -9555,6 +9555,7 @@ figure.snip0068.hover figcaption span {
 
 .itemzoom{
 transition: .5s ease-in-out;
+cursor: zoom-in;
 }
 .itemzoom:hover{
   filter: brightness(50%);
