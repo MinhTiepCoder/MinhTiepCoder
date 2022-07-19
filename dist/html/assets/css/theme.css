@@ -7964,7 +7964,7 @@ header-fixed
 }
 
 .top-menu__menu-item:not(:last-child) {
-  margin-right: 25px;
+  margin-right: 22px;
 }
 
 .top-menu__menu-link {
@@ -8109,7 +8109,7 @@ video-block
   vertical-align: top;
   position: relative;
   margin-top: 100px;
-  width: 75%;
+  width: 100%;
   margin-right: auto;
   color: #fff;
   transition: all 0.3s;
@@ -8170,7 +8170,7 @@ video-block
   display: inline-block;
   vertical-align: top;
   position: relative;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-right: auto;
   color: #fff;
   transition: all 0.3s;
@@ -9164,7 +9164,7 @@ Box
 
 .chuyendong p {
   font-size: 3rem;
-  padding: 5px;
+  padding: 10px;
   font-weight: bold;
   letter-spacing: 0.1rem;
   text-align: center;
@@ -9261,7 +9261,8 @@ Box
   text-align: right;
   float: right;
   margin-bottom: 30px;
-  margin-left: auto
+  margin-left: auto;
+  cursor: pointer;
 }
 
 .next-link_wrapper a:hover .image_next:after,
@@ -9295,7 +9296,8 @@ Box
   vertical-align: top;
   margin-left: 20px;
   position: relative;
-  transition: all .3s
+  transition: all .3s;
+  cursor: pointer;
 }
 
 .next-link_wrapper .image_next img {
@@ -9323,7 +9325,8 @@ Box
   z-index: 2;
   opacity: 0;
   visibility: hidden;
-  transition: all .3s ease
+  transition: all .3s ease;
+  cursor: pointer;
 }
 
 .next-link_wrapper .image_next .no_image_post {
