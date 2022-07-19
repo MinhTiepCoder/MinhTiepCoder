@@ -9562,3 +9562,9 @@ cursor: zoom-in;
   filter: brightness(50%);
 }
 
+.page-header_content .page-header_title {
+  color: #ffffff !important;
+  font-size: 50px !important;
+  line-height: 60px !important;
+}
+
