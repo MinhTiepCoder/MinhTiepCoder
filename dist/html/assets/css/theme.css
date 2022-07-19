@@ -9047,18 +9047,18 @@ zoom-slider
 }
 
 .lechinh-social .zalo {
-  background-image: url("/dist/html/assets/contact_button/icon_zalo.svg");
+  background-image: url("https://khuvuonmini.com/asset/contact_button/icon_zalo.svg");
   background-repeat: no-repeat;
 }
 
 .lechinh-social .call-icon {
   /*background:#509600!important;*/
-  background-image: url("/dist/html/assets/contact_button/icon_call.svg");
+  background-image: url("https://khuvuonmini.com/asset/contact_button/icon_call.svg");
   background-repeat: no-repeat;
 }
 
 .lechinh-social .sms {
-  background-image: url("/dist/html/assets/contact_button/icon_messenger.svg");
+  background-image: url("https://khuvuonmini.com/asset/contact_button/icon_messenger.svg");
   background-repeat: no-repeat;
 }
 
