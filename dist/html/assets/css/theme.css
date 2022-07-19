@@ -8170,7 +8170,7 @@ video-block
   display: inline-block;
   vertical-align: top;
   position: relative;
-  margin-top: 10px;
+  margin-top: 1px;
   margin-right: auto;
   color: #fff;
   transition: all 0.3s;
