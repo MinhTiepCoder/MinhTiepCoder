@@ -54,58 +54,6 @@
 </head>
 
 <body class="page">
-  <!-- Messenger Plugin chat Code -->
-  <div id="fb-root"></div>
-
-  <!-- Your Plugin chat code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
-  </div>
-
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "903712243144733");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
-
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function () {
-      FB.init({
-        xfbml: true,
-        version: 'v13.0'
-      });
-    };
-
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <div id="icon-fixed-right">
-    <a href="https://zalo.me/2910641720717068631" target="_blank" class="zalo-icon">
-      <img alt="url"
-        src="https://media.metu.vn/fillcolor?url=https%3A%2F%2Fmedia.metu.vn%2Fimages%2Ficon_zalo_01.svg&color=%23ffffff">
-    </a>
-  </div>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/6270ccaeb0d10b6f3e705fa7/1g249v35c';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    })();
-  </script>
-  <!--End of Tawk.to Script-->
   <div style="display: none">
     <!-- svg sprite-->
     <svg style="width:0; height:0; visibility:hidden;" xmlns="http://www.w3.org/2000/svg">
@@ -117,11 +65,35 @@
   </div>
   <div class="page__inner animsition">
     <header class="header">
+      <div title="Về đầu trang" id="top-up">
+        <i class="fas fa-arrow-circle-up"></i></div>
+      <div class="lechinh-social">
+        <div class="social-button">
+          <div class="social-button-content">
+
+            <a href="https://zalo.me/0867815109" class="zalo" id='contact_zalo' target='_blank'>
+              <i></i>
+              <span>Zalo: 0867815109</span>
+            </a>
+
+            <a href="tel:0867815109" class="call-icon" rel="nofollow" id='contact_phone'>
+              <i></i>
+              <span>Hotline: 0867815109</span>
+            </a>
+
+            <a href="https://m.me/sydocorp" class="sms" id='contact_facebook' target='_blank'>
+              <i></i>
+              <span>Facebook Messenger</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
       <div class="header__container">
         <div class="header__wrapper container-fluid">
           <div class="header__inner">
             <a class="header__link" href="https://sydo.vn/">
-              <img alt="" src="img/sydo_logo.png" /></a>
+              <img alt="" src="img/sydo_logo_new.png" /></a>
             <button class="header__menu-button" type="button">
               <span class="header__menu-button-inner"></span>
             </button>
@@ -146,33 +118,29 @@
 
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="vechungtoi.html">Về
-                Chúng Tôi</a>
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tonghopduan.html">Dự
+                Án</a>
 
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href="#submenu2">Lĩnh Vực</a>
-              <div class="menu-panel__menu-list collapse" id="submenu2">
-                <div class="menu-panel__bottom-submenu">
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="kientruc.html">Kiến Trúc</a>
-                  </div>
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="noithat.html">Nội Thất</a>
-                  </div>
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="canhquan.html">Cảnh Quan</a>
-                  </div>
-                  <div class="menu-panel__submenu-item">
-                    <a class="menu-panel__submenu-link" href="tuvangiamsat.html">Tư Vấn Giám Sát</a>
-                  </div>
-                </div>
-              </div>
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse"
+                href="thi-cong-tron-goi.htm">Thi
+                Công</a>
+
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tonghopduan.html">Tổng
-                Hợp Dự Án
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="bang-gia.html">Bảng
+                Giá
               </a>
+
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="#">Vật
+                Liệu</a>
+
+            </div>
+            <div class="menu-panel__menu-item">
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tintuc.html">Tin Tức</a>
 
             </div>
             <div class="menu-panel__menu-item">
@@ -181,15 +149,13 @@
 
             </div>
             <div class="menu-panel__menu-item">
-              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="tintuc.html">Tin Tức</a>
+              <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="vechungtoi.html">Giới
+                Thiệu</a>
 
             </div>
             <div class="menu-panel__menu-item">
               <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="lienhe.html">Liên
                 Hệ</a>
-              <div class="menu-panel__menu-list collapse" id="submenu4">
-
-              </div>
             </div>
           </div>
           <div class="menu-panel__footer">
