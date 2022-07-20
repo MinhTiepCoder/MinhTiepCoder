@@ -425,7 +425,7 @@
                 </section>
             </div>
         </main>
-        <footer class="footer-default footer">
+         <footer class="footer-default footer">
             <div class="container">
                 <div class="footer-default__head">
                     <a class="logo" href="https://sydo.vn/">SYDO CORP</a>
@@ -447,15 +447,11 @@
                                 <a class="footer-default__list-link" href="kientruc.html">Kiến Trúc</a>
                             </li>
                             <li class="footer-default__list-item">
+                                <a class="footer-default__list-link" href="thi-cong-tron-goi.htm">Xây Dựng</a>
+                            </li>
+                            <li class="footer-default__list-item">
                                 <a class="footer-default__list-link" href="noithat.html">Nội Thất</a>
                             </li>
-                            <li class="footer-default__list-item">
-                                <a class="footer-default__list-link" href="canhquan.html">Cảnh Quan</a>
-                            </li>
-                            <li class="footer-default__list-item">
-                                <a class="footer-default__list-link" href="tuvangiamsat.html">Tư Vấn Giám Sát</a>
-                            </li>
-
                         </ul>
                     </div>
                     <div class="footer-default__column col-12 col-sm-6 col-md-4">
@@ -465,10 +461,9 @@
                                     <br />
                                     TP. Thủ Đức, TP. Hồ Chí Minh
                                 </a></p>
-                            <p><a href="tel:0867815109">Hotline Cty & Zalo: 08 678 15109 </a>
-            </p>
-            <p><a href="tel:0916718393">Giám Đốc: 091 671 8393</a></p>
-
+                            <p><a href="tel:0867815109">Hotline: 086 781 5109 </a>
+                            </p>
+                            <p><a href="tel:0916718393">Giám Đốc: 091 671 8393</a></p>
                         </ul>
                     </div>
                     <div class="footer-default__column col-12 col-sm-6 col-md-12">
@@ -493,6 +488,31 @@
 
                 </div>
             </div>
+
+            <!-- Lên đầu trang -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+            <!-- Import thư viện JQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script>
+                // kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+                var offset = 500;
+                // thời gian di trượt 0.75s ( 1000 = 1s )
+                var duration = 750;
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > offset)
+                            $('#top-up').fadeIn(duration);
+                        else
+                            $('#top-up').fadeOut(duration);
+                    });
+                    $('#top-up').click(function () {
+                        $('body,html').animate({
+                            scrollTop: 0
+                        }, duration);
+                    });
+                });
+            </script>
+
         </footer>
     </div>
     <!--JS-->
