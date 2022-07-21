@@ -108,7 +108,6 @@ optimize styles
   font: inherit;
   box-sizing: border-box;
 }
-
 article,
 aside,
 details,
@@ -157,6 +156,7 @@ body {
   line-height: 1;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+
 }
 
 a {
