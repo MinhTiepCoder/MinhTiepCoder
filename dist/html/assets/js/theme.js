@@ -1029,3 +1029,6 @@ $("figure").mouseleave(
   }
 );
 
+function khiguidi(){
+  document.getElementById("thanhcong").style.display = "block";  
+  }

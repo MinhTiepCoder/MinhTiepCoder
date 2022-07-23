@@ -409,24 +409,31 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 col-lg-8 offset-lg-2">
-                                <form>
+                                <form class="contact-block__form" onsubmit="khiguidi()" target="frametanghinh"
+                                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSco6_VpIWcvXee1aXG9GDJa3J5IB3Zff6J44Ypaz-hzOXCufA/formResponse">
+                                    <iframe name="frametanghinh" style="display: none;"></iframe>
                                     <div class="row">
-                                        <div class="col-12 col-lg-6">
-                                            <input class="comments__input-text" name="name" placeholder="Tên"
-                                                type="text" />
+                                        <div class="col-12 col-sm-6">
+                                            <input class="contact-block__input-text" placeholder="Tên" type="text"
+                                                required name="entry.1558138866" type="hidden" value />
                                         </div>
-                                        <div class="col-12 col-lg-6">
-                                            <input class="comments__input-text" name="email" placeholder="Email"
-                                                type="text" />
+                                        <div class="col-12 col-sm-6">
+                                            <input class="contact-block__input-text" placeholder="Email" type="text"
+                                                required name="entry.1348662828" type="hidden" value />
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <input class="contact-block__input-text" placeholder="Số Điện Thoại"
+                                                type="text" required name="entry.1235828987" type="hidden" value />
                                         </div>
                                         <div class="col-12">
-                                            <input class="comments__input-text" name="subject" placeholder="SĐT"
-                                                type="text" />
-                                        </div>
-                                        <div class="col-12">
-                                            <textarea class="comments__input-textarea" name="message"
-                                                placeholder="Lời nhắc"></textarea>
-                                            <button class="comments__submit">Gửi</button>
+                                            <input class="contact-block__input-textarea" placeholder="Nội dung muốn gửi"
+                                                type="text" required name="entry.1946615552" type="hidden"
+                                                value></input>
+                                            <button type="submit" class="contact-block__submit">Gửi Phản Hồi
+                                                <span class="contact-block__submit-icon icofont-caret-right"></span>
+                                            </button>
+                                            <p id="thanhcong" style="display:none"> Cảm ơn Quý Anh/Chị đã phản hồi. SYDO
+                                                sẽ liên hệ với Quý Anh/Chị trong thời gian sớm nhất!</p>
                                         </div>
                                     </div>
                                 </form>

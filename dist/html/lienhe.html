@@ -216,8 +216,9 @@
               <div
                 class="heading-smallest heading-smallest heading-smallest_has-offset heading-smallest heading-smallest_size_small">
                 Đặt Lịch Tư Vấn</div>
-              <form class="contact-block__form"
+              <form class="contact-block__form" onsubmit="khiguidi()" target="frametanghinh"
                 action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSco6_VpIWcvXee1aXG9GDJa3J5IB3Zff6J44Ypaz-hzOXCufA/formResponse">
+                <iframe name="frametanghinh" style="display: none;"></iframe>
                 <div class="row">
                   <div class="col-12 col-sm-6">
                     <input class="contact-block__input-text" placeholder="Tên" type="text" required
@@ -237,6 +238,8 @@
                     <button type="submit" class="contact-block__submit">Gửi Đặt Lịch
                       <span class="contact-block__submit-icon icofont-caret-right"></span>
                     </button>
+                    <p id="thanhcong" style="display:none"> Quý Anh/Chị đặt lịch thành công! SYDO sẽ liên hệ
+                      với Quý Anh/Chị ngay.</p>
                   </div>
                 </div>
               </form>
