@@ -309,7 +309,7 @@
 
     if (footerElement) {
       var setPadding = function setPadding() {
-        bodyElement.style.paddingBottom = "".concat(footerElement.offsetHeight, "px");
+        bodyElement.style.paddingBottom = "0px".concat(footerElement.offsetHeight, "px");
       };
 
       var onWindowResize = function onWindowResize() {
