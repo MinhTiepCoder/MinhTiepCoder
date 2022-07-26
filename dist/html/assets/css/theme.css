@@ -9425,9 +9425,9 @@ figure.snip0068 {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 220px;
-  max-width: 310px;
-  max-height: 220px;
+  min-width: auto;
+  max-width: auto;
+  max-height: auto;
   width: 100%;
   background: #000000;
   text-align: center;
@@ -9468,7 +9468,7 @@ figure.snip0068 span {
   padding: 10px 15px;
   display: inline-block;
   width: 100%;
-  font-weight: 800;
+  font-weight: 550;
   text-transform: uppercase;
 }
 
@@ -9557,4 +9557,5 @@ cursor: zoom-in;
   font-size: 50px !important;
   line-height: 60px !important;
 }
+
 
