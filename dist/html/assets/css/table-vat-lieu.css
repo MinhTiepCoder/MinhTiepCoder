@@ -1,87 +1,138 @@
-/*	
-	Table Responsive
-	===================
-	Author: https://github.com/pablorgarcia
- */
-
-
-
-h1 {
-   font-size: 2em;
-   font-weight: 300;
-   line-height: 1em;
+.hinh-anh {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+.table-users {
+  border: 1px solid #ebb700;
+  border-radius: 10px;
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: hidden;
+  width: 800px;
+}
+table {
+  width: 100%;
+  font-size: 16px;
    text-align: center;
-   color: #ebb700;
 }
-
-
-.container th h1 {
-   font-weight: bold;
-   font-size: 1em;
-   text-align: left;
-   color: #185875;
+.dam-chu{
+ font-size: 20px;
+ font-weight: 500; 
 }
-
-.container td {
-   font-weight: normal;
-   font-size: 1em;
-   -webkit-box-shadow: 0 2px 2px -2px #0E1119;
-   -moz-box-shadow: 0 2px 2px -2px #0E1119;
-   box-shadow: 0 2px 2px -2px #0E1119;
+table td, table th {
+  color: black;
+  padding: 10px;
 }
-
-
-
-.container td,
-.container th {
-   padding-bottom: 2%;
-   padding-top: 2%;
-   padding-left: 2%;
+table td {
+  text-align: center;
+  vertical-align: middle;
 }
-
-/* Background-color of the odd rows */
-.container tr:nth-child(odd) {
-   background-color: #323C50;
+table td:last-child {
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: left;
 }
-
-/* Background-color of the even rows */
-.container tr:nth-child(even) {
-   background-color: #2C3446;
+table th {
+  background-color: #ebb700;
+  font-weight: 300;
+  
 }
-
-.container th {
-   background-color: #1F2739;
+table tr:nth-child(2n) {
+  background-color: white;
+  border-bottom: 1px solid #ebb700;
 }
-
-.container td:first-child {
-   color: #FB667A;
+table tr:nth-child(2n+1) {
+  border-bottom: 1px solid #ebb700;
 }
-
-.container tr:hover {
-   background-color: #464A52;
-   -webkit-box-shadow: 0 6px 6px -6px #0E1119;
-   -moz-box-shadow: 0 6px 6px -6px #0E1119;
-   box-shadow: 0 6px 6px -6px #0E1119;
+@media screen and (max-width: 700px) {
+  table, tr, td {
+    display: block;
+ }
+  td:first-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+ }
+  td:not(:first-child) {
+    clear: both;
+    margin-left: 100px;
+    padding: 4px 20px 4px 90px;
+    position: relative;
+    text-align: left;
+ }
+  td:not(:first-child):before {
+    color: #ebb700;
+    content: "Ứng dụng";
+    display: block;
+    left: 0;
+    position: absolute;
+ }
+  td:nth-child(2):before {
+    content: "Hạng mục";
+ }
+  td:nth-child(3):before {
+    content: "Vật Liệu";
+ 
+ }
+  td:nth-child(4):before {
+    content: "Hình ảnh minh họa"; 
+ }
+  td:nth-child(5):before {
+    content: "Ứng dụng";
+ }
+  tr {
+    padding: 10px 0;
+    position: relative;
+ }
+  tr:first-child {
+    display: none;
+ }
 }
+@media screen and (max-width: 500px) {
+  
+  .hinh-anh {
+    border: 3px solid;
+    border-color: #ebb700;
+    height: 100px;
+    margin: 0.5rem 0;
+    width: 100px;
+ }
+  td:first-child {
+    background-color: #ebb700;
+    border-bottom: 1px solid #ebb700;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    width: 100%;
+ }
+  td:not(:first-child) {
+    margin: 0;
+    padding: 5px 1em;
+    width: 100%;
+ }
+  td:not(:first-child):before {
+    font-size: 20px;
+    padding-top: 0.3em;
+    position: relative;
+ }
+  td:last-child {
+    padding-bottom: 1rem !important;
+ }
+  tr {
+    background-color: white !important;
+    border: 1px solid #ebb700;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
+    padding: 0;
 
-.container td:hover {
-   background-color: #FFF842;
-   color: #403E10;
-   font-weight: bold;
-
-   box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
-   transform: translate3d(6px, -6px, 0);
-
-   transition-delay: 0s;
-   transition-duration: 0.4s;
-   transition-property: all;
-   transition-timing-function: line;
-}
-
-@media (max-width: 800px) {
-
-   .container td:nth-child(4),
-   .container th:nth-child(4) {
-      display: none;
-   }
+ }
+  .table-users {
+    border: none;
+    box-shadow: none;
+    overflow: visible;
+ }
 }
