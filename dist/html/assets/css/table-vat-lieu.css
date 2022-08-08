@@ -69,6 +69,9 @@ table tr:nth-child(2n+1) {
     left: 0;
     position: absolute;
  }
+ td:nth-child(1):before {
+  content: "Số thứ tự: ";
+}
   td:nth-child(2):before {
     content: "Hạng mục";
  }
