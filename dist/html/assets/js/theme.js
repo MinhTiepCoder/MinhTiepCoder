@@ -1032,3 +1032,5 @@ $("figure").mouseleave(
 function khiguidi(){
   document.getElementById("thanhcong").style.display = "block";  
   }
+
+  window. history.pushState({"html":'<html></html>',"pageTitle":'this is my title'},"", 'http://stackoverflow.com/mynewurl');
