@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  xsi:schemaLocation="
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="
             http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
 
   <url>
@@ -19,25 +19,19 @@
        <loc>https://sydo.vn/tonghopduan.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thi-cong-tron-goi.htm</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/bang-gia.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
-  </url>
-  <url>
-       <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-08-09T08:15:02+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/vat-lieu-xay-dung-tho.html</loc>
@@ -54,6 +48,12 @@
   <url>
        <loc>https://sydo.vn/vat-lieu-xay-dung-noi-that.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/tintuc.html</loc>
+       <lastmod>2022-08-09T08:15:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -202,22 +202,19 @@
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/su-dung-do-go-trong-thiet-ke-ngoai-that-noi-that-hien-dai.html</loc>
+       <loc>https://sydo.vn/su-dung-do-go-trong-thiet-ke-ngoai-that-noi-that-hien-dai.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/chat-lieu-gach-va-nhung-y-tuong-thiet-ke-cho-khong-gian-song.html</loc>
+       <loc>https://sydo.vn/chat-lieu-gach-va-nhung-y-tuong-thiet-ke-cho-khong-gian-song.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/xay-dung-khong-gian-song-xanh-anh-sang-tu-nhien-cho-ngoi-nha.html</loc>
+       <loc>https://sydo.vn/xay-dung-khong-gian-song-xanh-anh-sang-tu-nhien-cho-ngoi-nha.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
@@ -238,7 +235,7 @@
        <loc>https://sydo.vn/tin-tuc-villa-dak-nong.html</loc>
        <lastmod>2022-08-09T08:15:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/dich-vu-cai-tao-nha-o-tron-goi.html</loc>
@@ -247,29 +244,25 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/hieu-qua-don-nang-tu-nhien-khong-gian-song.html</loc>
+       <loc>https://sydo.vn/hieu-qua-don-nang-tu-nhien-khong-gian-song.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/cong-ty-thiet-ke-thi-cong-tron-goi-cac-du-an-kien-truc-noi-that-canh-quan.html</loc>
+       <loc>https://sydo.vn/cong-ty-thiet-ke-thi-cong-tron-goi-cac-du-an-kien-truc-noi-that-canh-quan.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/giai-phap-kien-truc-xanh-cho-nha-ong-nam-2022.html</loc>
+       <loc>https://sydo.vn/giai-phap-kien-truc-xanh-cho-nha-ong-nam-2022.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/giai-phap-thiet-ke-linh-hoat-noi-that-can-ho-thu-thiem-dragon.html</loc>
+       <loc>https://sydo.vn/giai-phap-thiet-ke-linh-hoat-noi-that-can-ho-thu-thiem-dragon.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
@@ -281,8 +274,7 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/thiet-ke-sap-xep-trang-tri-nha-bep-phong-cach-nhat-ban.html</loc>
+       <loc>https://sydo.vn/thiet-ke-sap-xep-trang-tri-nha-bep-phong-cach-nhat-ban.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
@@ -294,8 +286,7 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/thiet-ke-phong-khach-theo-xu-huong-hien-dai.html</loc>
+       <loc>https://sydo.vn/thiet-ke-phong-khach-theo-xu-huong-hien-dai.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
@@ -313,8 +304,7 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/thiet-ke-thi-cong-xay-dung-nha-ong-phong-cach.html</loc>
+       <loc>https://sydo.vn/thiet-ke-thi-cong-xay-dung-nha-ong-phong-cach.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
@@ -377,7 +367,7 @@
        <loc>https://sydo.vn/ua-dai-thi-cong-tron-goi-nha-pho.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/uudiemvacamket.html</loc>
@@ -398,8 +388,7 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/tuyen-dung-kien-truc-su-thiet-ke-kien-truc.html</loc>
+       <loc>https://sydo.vn/tuyen-dung-kien-truc-su-thiet-ke-kien-truc.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
@@ -441,8 +430,7 @@
        <priority>0.5120</priority>
   </url>
   <url>
-       <loc
-    >https://sydo.vn/chinh-sach-uu-dai-thiet-ke-thi-cong-nha-o-tron-goi.html</loc>
+       <loc>https://sydo.vn/chinh-sach-uu-dai-thiet-ke-thi-cong-nha-o-tron-goi.html</loc>
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.5120</priority>
