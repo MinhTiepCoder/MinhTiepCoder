@@ -17,7 +17,7 @@
   </url>
   <url>
        <loc>https://sydo.vn/tonghopduan.html</loc>
-       <lastmod>2022-08-09T04:25:02+00:00</lastmod>
+       <lastmod>2022-08-09T09:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -53,7 +53,7 @@
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-08-09T08:15:02+00:00</lastmod>
+       <lastmod>2022-08-09T11:05:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -230,6 +230,12 @@
        <lastmod>2022-08-09T04:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/phong-cach-tropical.html</loc>
+       <lastmod>2022-08-09T11:05:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
   </url>
   <url>
        <loc>https://sydo.vn/tin-tuc-villa-dak-nong.html</loc>
