@@ -7,6 +7,14 @@
     "disown-opener": "off",
     "compat-api/html": "off",
     "no-inline-styles": "off",
-    "axe/structure": "off"
+    "axe/structure": "off",
+    "axe/text-alternatives": [
+      "off",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/parsing": "off"
   }
 }
