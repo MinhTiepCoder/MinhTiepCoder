@@ -3637,6 +3637,9 @@ header
 .header_white {
   color: #fff;
 }
+.header_black1 {
+  color: #000;
+}
 
 .header__overlay {
   position: fixed;
