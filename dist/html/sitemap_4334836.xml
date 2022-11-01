@@ -19,19 +19,19 @@
        <loc>https://sydo.vn/tonghopduan.html</loc>
        <lastmod>2022-10-03T09:50:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thi-cong-tron-goi.htm</loc>
        <lastmod>2022-10-03T09:50:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/bang-gia.html</loc>
        <lastmod>2022-10-25T13:00:04+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/vat-lieu-xay-dung-tho.html</loc>
@@ -53,9 +53,9 @@
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-10-31T07:55:02+00:00</lastmod>
+       <lastmod>2022-11-01T09:45:03+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/chinhsach.html</loc>
@@ -73,7 +73,7 @@
        <loc>https://sydo.vn/lienhe.html</loc>
        <lastmod>2022-09-12T11:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+       <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhv-villa.html</loc>
@@ -221,7 +221,7 @@
   </url>
   <url>
        <loc>https://sydo.vn/kientruc.html</loc>
-       <lastmod>2022-10-03T09:50:02+00:00</lastmod>
+       <lastmod>2022-11-01T09:45:03+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -238,16 +238,22 @@
        <priority>0.6400</priority>
   </url>
   <url>
+       <loc>https://sydo.vn/cach-so-huu-mot-thiet-ke-biet-thu-dep.html</loc>
+       <lastmod>2022-11-01T09:45:03+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
        <loc>https://sydo.vn/nhung-yeu-to-de-co-mot-can-nha-o-dep.html</loc>
        <lastmod>2022-10-31T07:55:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/bao-gia-thiet-ke-biet-thu-moi-nhat.html</loc>
        <lastmod>2022-10-27T04:30:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/bao-gia-thiet-ke-nha-pho-moi-nhat.html</loc>
@@ -448,24 +454,6 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://sydo.vn/nhabentre.html</loc>
-       <lastmod>2022-10-03T09:50:02+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://sydo.vn/nhanamho.html</loc>
-       <lastmod>2022-10-03T09:50:02+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://sydo.vn/kientruc-nhabaoloc.html</loc>
-       <lastmod>2022-10-03T09:50:02+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
        <loc>https://sydo.vn/canhquan.html</loc>
        <lastmod>2022-09-27T03:09:58+00:00</lastmod>
        <changefreq>daily</changefreq>
@@ -496,6 +484,12 @@
        <priority>0.5120</priority>
   </url>
   <url>
+       <loc>https://sydo.vn/nhabentre.html</loc>
+       <lastmod>2022-10-03T09:50:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
        <loc>https://sydo.vn/thiet-ke-thi-cong-du-an-nha-an-phu.html</loc>
        <lastmod>2022-10-25T13:00:04+00:00</lastmod>
        <changefreq>daily</changefreq>
@@ -522,6 +516,12 @@
   <url>
        <loc>https://sydo.vn/canhquan-tanung.html</loc>
        <lastmod>2022-09-27T03:09:58+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/nhanamho.html</loc>
+       <lastmod>2022-10-03T09:50:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.5120</priority>
   </url>
