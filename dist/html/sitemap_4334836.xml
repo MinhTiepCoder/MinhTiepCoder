@@ -19,19 +19,19 @@
        <loc>https://sydo.vn/tonghopduan.html</loc>
        <lastmod>2022-10-03T09:50:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/thi-cong-tron-goi.htm</loc>
        <lastmod>2022-10-03T09:50:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/bang-gia.html</loc>
        <lastmod>2022-10-25T13:00:04+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/vat-lieu-xay-dung-tho.html</loc>
@@ -53,9 +53,9 @@
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-11-01T09:45:03+00:00</lastmod>
+       <lastmod>2022-11-07T09:15:06+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/chinhsach.html</loc>
@@ -73,7 +73,7 @@
        <loc>https://sydo.vn/lienhe.html</loc>
        <lastmod>2022-09-12T11:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhv-villa.html</loc>
@@ -238,10 +238,16 @@
        <priority>0.6400</priority>
   </url>
   <url>
-       <loc>https://sydo.vn/cach-so-huu-mot-thiet-ke-biet-thu-dep.html</loc>
-       <lastmod>2022-11-01T09:45:03+00:00</lastmod>
+       <loc>https://sydo.vn/thiet-ke-nha-pho-bao-gom-nhung-gi.html</loc>
+       <lastmod>2022-11-07T09:15:06+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://sydo.vn/cach-so-huu-mot-thiet-ke-biet-thu-dep.html</loc>
+       <lastmod>2022-11-01T10:50:03+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/nhung-yeu-to-de-co-mot-can-nha-o-dep.html</loc>
