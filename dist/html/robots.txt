@@ -55,4 +55,4 @@ Disallow: /
 User-agent: HTTP Weazel
 Disallow: /
 
-Sitemap: https://sydo.vn/sitemap.xml
+Sitemap: https://sydo.vn/sitemap_4334836.xml
