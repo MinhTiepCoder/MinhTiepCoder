@@ -53,7 +53,7 @@
   </url>
   <url>
        <loc>https://sydo.vn/tintuc.html</loc>
-       <lastmod>2022-11-07T09:15:06+00:00</lastmod>
+       <lastmod>2022-11-10T10:25:02+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
@@ -238,10 +238,16 @@
        <priority>0.6400</priority>
   </url>
   <url>
+       <loc>https://sydo.vn/don-vi-thiet-ke-biet-thu-tron-goi.html</loc>
+       <lastmod>2022-11-10T10:25:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <url>
        <loc>https://sydo.vn/thiet-ke-nha-pho-bao-gom-nhung-gi.html</loc>
        <lastmod>2022-11-07T09:15:06+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://sydo.vn/cach-so-huu-mot-thiet-ke-biet-thu-dep.html</loc>
